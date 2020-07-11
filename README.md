@@ -26,6 +26,22 @@ Import the provided SCSS file in your main SCSS file, ex: `styles.scss`:
 @import '~geira-iconfont/dist/geira-icons.scss';
 ```
 
+## Devlopment
+
+1. Clone repository.
+
+2. Make some updates to the files at `/src`.
+
+3. Depending on your flow you will want
+ 
+    a) compile by executing:
+
+       npm run build
+       
+     b) or start the dev server:
+     
+       npm run start
+
 ## License
 
 The MIT License (MIT)
