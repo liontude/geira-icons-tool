@@ -26,7 +26,7 @@ Import the provided SCSS file in your main SCSS file, ex: `styles.scss`:
 @import '~geira-iconfont/dist/geira-icons.scss';
 ```
 
-## Devlopment
+## Development
 
 1. Clone repository.
 
