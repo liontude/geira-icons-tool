@@ -2,7 +2,7 @@
   "name": "@geira/iconfont",
   "version": "0.0.1",
   "description": "Geira Icon Font",
-  "main": "dist/geira-icons.css",
+  "main": "dist/geira-icons.min.css",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server --mode development --open",
@@ -17,6 +17,9 @@
     "css"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "contributors": [
     {
       "name": "Leo Roderick",

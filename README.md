@@ -15,7 +15,7 @@ npm install --save @geira/iconfont
 Add the following tag inside the html `<head>` tag:
 
 ```html
-<link href="node_components/geira-iconfont/dist/geira-icons.css" rel="stylesheet">
+<link href="node_components/geira-iconfont/dist/geira-icons.min.css" rel="stylesheet">
 ```
 
 ### SCSS
