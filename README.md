@@ -2,6 +2,10 @@
 
 Custom icon font for the Geira Appointments System.
 
+## Demo
+
+You can see the icons via the live demo at http://icons.geira.com.
+
 ## Installation
 
 ```

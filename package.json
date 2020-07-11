@@ -1,10 +1,11 @@
 {
   "name": "@geira/iconfont",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Geira Icon Font",
   "main": "dist/geira-icons.min.css",
   "scripts": {
     "build": "webpack",
+    "postinstall": "npm run build",
     "start": "webpack-dev-server --mode development --open",
     "prepublish": "npm run build"
   },
