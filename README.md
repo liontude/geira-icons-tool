@@ -42,7 +42,7 @@ Import the provided SCSS file in your main SCSS file, ex: `styles.scss`:
      
        npm run start
 
-### Publish
+## Publish
 
 1. Make the necessary updates to the source files.
 
