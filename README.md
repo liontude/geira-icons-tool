@@ -42,6 +42,22 @@ Import the provided SCSS file in your main SCSS file, ex: `styles.scss`:
      
        npm run start
 
+### Publish
+
+1. Make the necessary updates to the source files.
+
+2. Bump the `package.json` version property, ex: from `0.0.1` to `0.0.2`.
+
+3. Commit changes.
+
+4. Add the above new version tag to the commit, ex: `0.0.2`.
+
+5. Push changes to git repository.
+
+6. Publish the new version to npm by executing in a console:
+
+       npm publish
+
 ## License
 
 The MIT License (MIT)
