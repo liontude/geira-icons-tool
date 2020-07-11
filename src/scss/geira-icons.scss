@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@font-face {
+  font-family  : 'Geira Icons';
+  font-style   : normal;
+  font-weight  : 400;
+  font-display : block;
+  src          : url(./fonts/GeiraIcons-Regular.eot);
+  src          : local('Geira Icons'),
+  local('GeiraIcons-Regular'),
+  url(./fonts/GeiraIcons-Regular.woff2) format('woff2'),
+  url(./fonts/GeiraIcons-Regular.woff) format('woff'),
+  url(./fonts/GeiraIcons-Regular.ttf) format('truetype');
+}
+
+.geira-icons, .geira-icons:before {
+  font-family             : 'Geira Icons';
+  font-weight             : normal;
+  font-style              : normal;
+  font-size               : 24px;
+  display                 : inline-block;
+  line-height             : 1;
+  text-transform          : none;
+  letter-spacing          : normal;
+  word-wrap               : normal;
+  white-space             : nowrap;
+  direction               : ltr;
+  -webkit-font-smoothing  : antialiased;
+  text-rendering          : optimizeLegibility;
+  -moz-osx-font-smoothing : grayscale;
+  font-feature-settings   : 'liga';
+}
+
+span.geira-icons:before {
+  content : "\E001";
+}
+
+.gi-18, .gi-18:before {
+  font-size : 18px
+}
+
+.gi-24, .gi-24:before {
+  font-size : 24px
+}
+
+.gi-36, .gi-36:before {
+  font-size : 36px
+}
+
+.gi-48, .gi-48:before {
+  font-size : 48px
+}
+
+.gi-dark, .gi-dark:before {
+  color : rgba(0, 0, 0, 0.54)
+}
+
+.gi-dark.gi-inactive, .gi-dark.gi-inactive:before {
+  color : rgba(0, 0, 0, 0.26)
+}
+
+.gi-light, .gi-light:before {
+  color : #ffffff
+}
+
+.gi-light.gi-inactive, .gi-light.gi-inactive:before {
+  color : rgba(255, 255, 255, 0.3)
+}
+
+.gi-rotate-45, .gi-rotate-45:before {
+  -webkit-transform : rotate(45deg);
+  -ms-transform     : rotate(45deg);
+  transform         : rotate(45deg)
+}
+
+.gi-rotate-90, .gi-rotate-90:before {
+  -webkit-transform : rotate(90deg);
+  -ms-transform     : rotate(90deg);
+  transform         : rotate(90deg)
+}
+
+.gi-rotate-135, .gi-rotate-135:before {
+  -webkit-transform : rotate(135deg);
+  -ms-transform     : rotate(135deg);
+  transform         : rotate(135deg)
+}
+
+.gi-rotate-180, .gi-rotate-180:before {
+  -webkit-transform : rotate(180deg);
+  -ms-transform     : rotate(180deg);
+  transform         : rotate(180deg)
+}
+
+.gi-rotate-225, .gi-rotate-225:before {
+  -webkit-transform : rotate(225deg);
+  -ms-transform     : rotate(225deg);
+  transform         : rotate(225deg)
+}
+
+.gi-rotate-270, .gi-rotate-270:before {
+  -webkit-transform : rotate(270deg);
+  -ms-transform     : rotate(270deg);
+  transform         : rotate(270deg)
+}
+
+.gi-rotate-315, .gi-rotate-315:before {
+  -webkit-transform : rotate(315deg);
+  -ms-transform     : rotate(315deg);
+  transform         : rotate(315deg)
+}
+
+.gi-flip-h, .gi-flip-h:before {
+  -webkit-transform : scaleX(-1);
+  transform         : scaleX(-1);
+  filter            : FlipH;
+  -ms-filter        : "FlipH"
+}
+
+.gi-flip-v, .gi-flip-v:before {
+  -webkit-transform : scaleY(-1);
+  transform         : scaleY(-1);
+  filter            : FlipV;
+  -ms-filter        : "FlipV"
+}
+
+.gi-spin, .gi-spin:before {
+  -webkit-animation : gi-spin 2s infinite linear;
+  animation         : gi-spin 2s infinite linear
+}
+
+@-webkit-keyframes gi-spin {
+  0% {
+    -webkit-transform : rotate(0deg);
+    transform         : rotate(0deg)
+  }
+  100% {
+    -webkit-transform : rotate(359deg);
+    transform         : rotate(359deg)
+  }
+}
+
+@keyframes gi-spin {
+  0% {
+    -webkit-transform : rotate(0deg);
+    transform         : rotate(0deg)
+  }
+  100% {
+    -webkit-transform : rotate(359deg);
+    transform         : rotate(359deg)
+  }
+}
