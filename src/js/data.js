@@ -396,31 +396,31 @@ window.iconsOriginal = [
     uni: "E206"
   },
   {
-    name: "brightness_one",
+    name: "brightness_1",
     uni: "E289"
   },
   {
-    name: "brightness_two",
+    name: "brightness_2",
     uni: "E28A"
   },
   {
-    name: "brightness_three",
+    name: "brightness_3",
     uni: "E28B"
   },
   {
-    name: "brightness_four",
+    name: "brightness_4",
     uni: "E28C"
   },
   {
-    name: "brightness_five",
+    name: "brightness_5",
     uni: "E28D"
   },
   {
-    name: "brightness_six",
+    name: "brightness_6",
     uni: "E28E"
   },
   {
-    name: "brightness_seven",
+    name: "brightness_7",
     uni: "E28F"
   },
   {

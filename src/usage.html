@@ -6,14 +6,19 @@
   </head>
 
   <body>
-    <header>
-      <h1>Geira Icons</h1>
-      <ul>
-        <li><a href="index.html">Icons</a></li>
-        <li class="active"><a href="usage.html">Usage</a></li>
-      </ul>
-      <a href="geira-icons.zip">Download</a>
-    </header>
+  <header>
+    <h1>Geira Icons</h1>
+
+    <ul>
+      <li><a href="index.html">Icons</a></li>
+      <li class="active"><a href="usage.html">Usage</a></li>
+    </ul>
+
+    <ul class="logos">
+      <li><a href="https://www.npmjs.com/package/@geira/iconfont" target="_blank"><i class="geira-icons">npm</i></a></li>
+      <li><a href="https://gitlab.com/liontude/geira/iconfont" target="_blank"><i class="geira-icons">gitlab</i></a></li>
+    </ul>
+  </header>
 
       <div style="display: block">
       <div class="container center">
@@ -29,16 +34,16 @@
           </div>
         </div>
 
-        <p style="margin-top: 30px">Ex. "home" icon unicode is "\E005"</p>
-        <p style="margin-bottom: 10px">Change "<strong>\</strong>E005" to
-                                       "<strong>&amp;#x</strong>E005<strong>;</strong>"</p>
+        <p style="margin-top: 30px">Ex. "home" icon unicode is "\E0BA"</p>
+        <p style="margin-bottom: 10px">Change "<strong>\</strong>E0BA" to
+                                       "<strong>&amp;#x</strong>E0BA<strong>;</strong>"</p>
         <div class="block row">
           <div class="icons-preview">
-            <i class="geira-icons">&#xE005;</i>
+            <i class="geira-icons">&#xE0BA;</i>
           </div>
           <div class="icons-code">
             <code>&lt;i
-                  class="geira-icons"&gt;&amp;#xE005;&lt;/i&gt;
+                  class="geira-icons"&gt;&amp;#xE0BA;&lt;/i&gt;
             </code>
           </div>
         </div>
@@ -49,7 +54,7 @@
           <div class="icons-code">
             <code style="padding: 20px; text-align: center">
               .some-class::before {
-              content: "\E005";
+              content: "\E0BA";
               }
             </code>
           </div>

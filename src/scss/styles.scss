@@ -44,13 +44,25 @@ header ul li {
   font-size      : .9em;
 }
 
+header ul.logos {
+  padding-right: 20px;
+}
+header ul.logos li {
+  padding: 0;
+}
+
 header ul li a {
-  color           : #37474f;
+  color           : #00838F;
   text-decoration : none;
 }
 
+header ul.logos li a i {
+  color           : #00838F;
+}
+
+
 header ul li.active a {
-  color  : #ff8a65;
+  color  : #FFAB91;
   cursor : default;
 }
 
@@ -105,7 +117,8 @@ p {
 }
 
 .some-class:before {
-  content : "\E005";
+  content : "\E0BA";
+  font-size: 48px;
 }
 
 .geira-icons {
