@@ -1,434 +1,552 @@
 window.iconsOriginal = [
   {
-    name: "email",
-    uni: "E000"
-  },
-  {
-    name: "phone",
-    uni: "E001"
-  },
-  {
-    name: "user",
-    uni: "E002"
-  },
-  {
-    name: "lock",
-    uni: "E003"
-  },
-  {
     name: "face_id",
-    uni: "E004"
+    uni: "E004",
+    tags: ""
   },
   {
     name: "gear",
-    uni: "E007"
+    uni: "E007",
+    tags: ""
   },
   {
     name: "services",
-    uni: "E008"
+    uni: "E008",
+    tags: ""
   },
   {
     name: "close",
-    uni: "E010"
+    uni: "E010",
+    tags: ""
   },
   {
     name: "close_circle",
-    uni: "E013"
+    uni: "E013",
+    tags: ""
   },
   {
     name: "close_line",
-    uni: "E014"
+    uni: "E014",
+    tags: ""
   },
   {
     name: "jobs",
-    uni: "E015"
+    uni: "E015",
+    tags: ""
   },
   {
     name: "map_go",
-    uni: "E016"
+    uni: "E016",
+    tags: ""
   },
   {
     name: "map_add",
-    uni: "E017"
-  },
-  {
-    name: "places",
-    uni: "E018"
+    uni: "E017",
+    tags: ""
   },
   {
     name: "satellite",
-    uni: "E019"
+    uni: "E019",
+    tags: ""
   },
   {
     name: "map",
-    uni: "E020"
+    uni: "E020",
+    tags: ""
   },
   {
     name: "screen_full",
-    uni: "E021"
+    uni: "E021",
+    tags: ""
   },
   {
     name: "screen",
-    uni: "E022"
+    uni: "E022",
+    tags: ""
   },
   {
     name: "location",
-    uni: "E023"
+    uni: "E023",
+    tags: ""
   },
   {
     name: "compass",
-    uni: "E024"
+    uni: "E024",
+    tags: ""
   },
   {
     name: "search",
-    uni: "E025"
+    uni: "E025",
+    tags: ""
   },
   {
     name: "delete",
-    uni: "E026"
+    uni: "E026",
+    tags: ""
   },
   {
     name: "test",
-    uni: "E027"
+    uni: "E027",
+    tags: ""
   },
   {
     name: "posts",
-    uni: "E028"
+    uni: "E028",
+    tags: ""
   },
   {
     name: "docs",
-    uni: "E029"
+    uni: "E029",
+    tags: ""
   },
   {
     name: "flip_card",
-    uni: "E030"
+    uni: "E030",
+    tags: ""
   },
   {
     name: "faqs",
-    uni: "E031"
+    uni: "E031",
+    tags: ""
   },
   {
     name: "half_star",
-    uni: "E032"
+    uni: "E032",
+    tags: ""
   },
   {
     name: "star_line",
-    uni: "E033"
+    uni: "E033",
+    tags: ""
   },
   {
     name: "star",
-    uni: "E034"
+    uni: "E034",
+    tags: ""
   },
   {
     name: "alert",
-    uni: "E035"
+    uni: "E035",
+    tags: ""
   },
   {
     name: "voice",
-    uni: "E036"
+    uni: "E036",
+    tags: ""
   },
   {
     name: "audio_play",
-    uni: "E037"
+    uni: "E037",
+    tags: ""
   },
   {
     name: "audio",
-    uni: "E038"
+    uni: "E038",
+    tags: ""
   },
   {
     name: "audio_mute",
-    uni: "E039"
+    uni: "E039",
+    tags: ""
   },
   {
     name: "good",
-    uni: "E040"
+    uni: "E040",
+    tags: ""
   },
   {
     name: "arrow_left",
-    uni: "E041"
+    uni: "E041",
+    tags: ""
   },
   {
     name: "arrow_right",
-    uni: "E042"
+    uni: "E042",
+    tags: ""
   },
   {
     name: "arrow_down",
-    uni: "E043"
+    uni: "E043",
+    tags: ""
   },
   {
     name: "arrow_up",
-    uni: "E044"
+    uni: "E044",
+    tags: ""
   },
   {
     name: "caret_left",
-    uni: "E045"
+    uni: "E045",
+    tags: ""
   },
   {
     name: "caret_right",
-    uni: "E046"
+    uni: "E046",
+    tags: ""
   },
   {
     name: "caret",
-    uni: "E047"
+    uni: "E047",
+    tags: ""
   },
   {
     name: "caret_down",
-    uni: "E048"
+    uni: "E048",
+    tags: ""
   },
   {
     name: "random",
-    uni: "E049"
+    uni: "E049",
+    tags: ""
   },
   {
     name: "no_random",
-    uni: "E050"
+    uni: "E050",
+    tags: ""
   },
   {
     name: "thumb_up",
-    uni: "E051"
+    uni: "E051",
+    tags: ""
   },
   {
     name: "thumb_down",
-    uni: "E052"
+    uni: "E052",
+    tags: ""
   },
   {
     name: "checked",
-    uni: "E053"
+    uni: "E053",
+    tags: ""
   },
   {
     name: "check",
-    uni: "E054"
+    uni: "E054",
+    tags: ""
   },
   {
     name: "radio_selected",
-    uni: "E055"
+    uni: "E055",
+    tags: ""
   },
   {
     name: "radio",
-    uni: "E056"
+    uni: "E056",
+    tags: ""
   },
   {
     name: "read_down",
-    uni: "E057"
+    uni: "E057",
+    tags: ""
   },
   {
     name: "read_up",
-    uni: "E058"
+    uni: "E058",
+    tags: ""
   },
   {
     name: "plus_line",
-    uni: "E059"
+    uni: "E059",
+    tags: ""
   },
   {
     name: "minus_line",
-    uni: "E060"
+    uni: "E060",
+    tags: ""
   },
   {
     name: "plus",
-    uni: "E061"
+    uni: "E061",
+    tags: ""
   },
   {
     name: "minus",
-    uni: "E062"
+    uni: "E062",
+    tags: ""
   },
   {
     name: "share",
-    uni: "E063"
+    uni: "E063",
+    tags: ""
   },
   {
     name: "edit",
-    uni: "E064"
+    uni: "E064",
+    tags: ""
   },
   {
     name: "text_out",
-    uni: "E065"
+    uni: "E065",
+    tags: ""
   },
   {
     name: "text_in",
-    uni: "E066"
+    uni: "E066",
+    tags: ""
   },
   {
     name: "eye",
-    uni: "E067"
+    uni: "E067",
+    tags: ""
   },
   {
     name: "blind",
-    uni: "E068"
+    uni: "E068",
+    tags: ""
   },
   {
     name: "info",
-    uni: "E069"
+    uni: "E069",
+    tags: ""
   },
   {
     name: "info_line",
-    uni: "E070"
+    uni: "E070",
+    tags: ""
   },
   {
     name: "cup",
-    uni: "E071"
+    uni: "E071",
+    tags: ""
   },
   {
     name: "rate",
-    uni: "E072"
-  },
-  {
-    name: "tu_opinion",
-    uni: "E073"
-  },
-  {
-    name: "your_opinion",
-    uni: "E074"
+    uni: "E072",
+    tags: ""
   },
   {
     name: "tri_left_up",
-    uni: "E075"
+    uni: "E075",
+    tags: ""
   },
   {
     name: "tri_right_up",
-    uni: "E076"
+    uni: "E076",
+    tags: ""
   },
   {
     name: "tri_right_down",
-    uni: "E077"
+    uni: "E077",
+    tags: ""
   },
   {
     name: "tri_left_down",
-    uni: "E078"
+    uni: "E078",
+    tags: ""
   },
   {
     name: "tri_up",
-    uni: "E079"
+    uni: "E079",
+    tags: ""
   },
   {
     name: "tri_right",
-    uni: "E080"
+    uni: "E080",
+    tags: ""
   },
   {
     name: "tri_down",
-    uni: "E081"
+    uni: "E081",
+    tags: ""
   },
   {
     name: "tri_left",
-    uni: "E082"
+    uni: "E082",
+    tags: ""
   },
   {
     name: "politician",
-    uni: "E083"
+    uni: "E083",
+    tags: ""
   },
   {
     name: "sound_write",
-    uni: "E084"
+    uni: "E084",
+    tags: ""
   },
   {
     name: "text_speak",
-    uni: "E085"
+    uni: "E085",
+    tags: ""
   },
   {
     name: "judge",
-    uni: "E086"
+    uni: "E086",
+    tags: ""
   },
   {
     name: "chart",
-    uni: "E087"
+    uni: "E087",
+    tags: ""
   },
   {
     name: "listening",
-    uni: "E088"
-  },
-  {
-    name: "url",
-    uni: "E089"
+    uni: "E088",
+    tags: ""
   },
   {
     name: "no_ads",
-    uni: "E090"
+    uni: "E090",
+    tags: ""
   },
   {
     name: "award",
-    uni: "E091"
+    uni: "E091",
+    tags: ""
   },
   {
     name: "send",
-    uni: "E00A"
+    uni: "E00A",
+    tags: "sent"
   },
   {
     name: "person",
-    uni: "E00B"
+    uni: "E00B",
+    tags: "user, account"
   },
   {
     name: "people",
-    uni: "E00C"
+    uni: "E00C",
+    tags: "group"
   },
   {
     name: "refresh",
-    uni: "E02C"
+    uni: "E02C",
+    tags: ""
   },
   {
     name: "exit_to_app",
-    uni: "E0A6"
+    uni: "E0A6",
+    tags: ""
   },
   {
     name: "menu",
-    uni: "E0A7"
+    uni: "E0A7",
+    tags: "hamburger"
   },
   {
     name: "more_vert",
-    uni: "E0A8"
+    uni: "E0A8",
+    tags: "menu"
   },
   {
     name: "more_horiz",
-    uni: "E0A9"
+    uni: "E0A9",
+    tags: "menu"
+  },
+  {
+    name: "phone",
+    uni: "E0B9",
+    tags: "telephone"
   },
   {
     name: "home",
-    uni: "E0BA"
+    uni: "E0BA",
+    tags: "house"
   },
   {
     name: "language",
-    uni: "E0BB"
+    uni: "E0BB",
+    tags: "globe"
+  },
+  {
+    name: "url",
+    uni: "E0BC",
+    tags: "link"
+  },
+  {
+    name: "place",
+    uni: "E0CA",
+    tags: "location"
+  },
+  {
+    name: "mail",
+    uni: "E0CB",
+    tags: "email"
+  },
+  {
+    name: "gift",
+    uni: "E0FB",
+    tags: "prize, redeem"
+  },
+  {
+    name: "time",
+    uni: "E0FC",
+    tags: "clock, schedule, watch"
+  },
+  {
+    name: "verified",
+    uni: "E1E1",
+    tags: "shield"
+  },
+  {
+    name: "verified_user",
+    uni: "E1E2",
+    tags: "shield"
+  },
+  {
+    name: "lock",
+    uni: "E1E3",
+    tags: ""
+  },
+  {
+    name: "lock_open",
+    uni: "E1E4",
+    tags: ""
   },
   {
     name: "visibility",
-    uni: "E205"
+    uni: "E205",
+    tags: "eye"
   },
   {
     name: "visibility_off",
-    uni: "E206"
+    uni: "E206",
+    tags: "eye"
   },
   {
     name: "brightness_1",
-    uni: "E289"
+    uni: "E289",
+    tags: ""
   },
   {
     name: "brightness_2",
-    uni: "E28A"
+    uni: "E28A",
+    tags: ""
   },
   {
     name: "brightness_3",
-    uni: "E28B"
+    uni: "E28B",
+    tags: ""
   },
   {
     name: "brightness_4",
-    uni: "E28C"
+    uni: "E28C",
+    tags: ""
   },
   {
     name: "brightness_5",
-    uni: "E28D"
+    uni: "E28D",
+    tags: ""
   },
   {
     name: "brightness_6",
-    uni: "E28E"
+    uni: "E28E",
+    tags: ""
   },
   {
     name: "brightness_7",
-    uni: "E28F"
+    uni: "E28F",
+    tags: ""
   },
   {
     name: "gitlab",
-    uni: "E2A1"
+    uni: "E2A1",
+    tags: ""
   },
   {
     name: "npm",
-    uni: "E2A2"
+    uni: "E2A2",
+    tags: ""
   }
 ];

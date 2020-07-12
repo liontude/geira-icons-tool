@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Geira Icons</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <title>Geira Icons</title>
+</head>
+<body>
+<div class="main">
+  <header>
+    <h1>Geira Icons</h1>
 
-    <header>
-      <h1>Geira Icons</h1>
+    <ul>
+      <li class="active"><a href="index.html">Icons</a></li>
+      <li><a href="usage.html">Usage</a></li>
+    </ul>
 
-      <ul>
-        <li class="active"><a href="index.html">Icons</a></li>
-        <li><a href="usage.html">Usage</a></li>
-      </ul>
-
-      <ul class="logos">
-        <li><a href="https://www.npmjs.com/package/@geira/iconfont" target="_blank"><i class="geira-icons">npm</i></a></li>
-        <li><a href="https://gitlab.com/liontude/geira/iconfont" target="_blank"><i class="geira-icons">gitlab</i></a></li>
-      </ul>
-    </header>
-
-    <div style="display: block">
-      <div class="container flex-row">
-        <div id="icons"></div>
-      </div>
-
-      <div id="quantity"></div>
+    <ul class="logos">
+      <li><a href="https://www.npmjs.com/package/@geira/iconfont" target="_blank"><i class="geira-icons">npm</i></a></li>
+      <li><a href="https://gitlab.com/liontude/geira/iconfont" target="_blank"><i class="geira-icons">gitlab</i></a></li>
+    </ul>
+  </header>
+  <div class="container">
+    <div class="search">
+      <input type="text" id="match" placeholder="Search icon...">
     </div>
+    <ul id="icons"></ul>
+  </div>
 
-    <footer>
-      <p>&copy; Liontude. All Rights Reserved</p>
-    </footer>
-  </body>
+  <div id="quantity"></div>
+
+  <footer>
+    <p>&copy;2020 <a style="color: inherit; text-decoration: none;" href="https://liontude.com" target="_blank">Liontude</a>. All Rights Reserved. Released under MIT License</p>
+  </footer>
+</div>
+</body>
 </html>
