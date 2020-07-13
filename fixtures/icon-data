@@ -1,30 +1,15 @@
-  sub b r i g h t n e s s underscore one by uniE289;
-  sub b r i g h t n e s s underscore two by uniE28A;
-  sub b r i g h t n e s s underscore three by uniE28B;
-  sub b r i g h t n e s s underscore four by uniE28C;
+  sub f a c e underscore i d by uniE004;
 
-#  sub n o c o m m e n t by uniE000;
-
-  sub e m a i l by uniE000;
-  sub p h o n e by uniE001;
-  sub u s e r by uniE002; #tags shield
-  sub l o c k by uniE003; #tags prize, redeem
-  sub f a c e underscore i d by uniE004; #tags eye
-  sub h o m e by uniE005;
-  sub r e s e t by uniE006;
   sub g e a r by uniE007;
   sub s e r v i c e s by uniE008;
-  sub h a m b u r g e r by uniE009;
+
   sub c l o s e by uniE010;
 
-  sub d o t s underscore h o z by uniE011; #tags location
-  sub d o t s underscore v e r by uniE012;
   sub c l o s e underscore c i r c l e by uniE013;
   sub c l o s e underscore l i n e by uniE014;
   sub j o b s by uniE015;
   sub m a p underscore g o by uniE016;
   sub m a p underscore a d d by uniE017;
-  sub p l a c e s by uniE018;
   sub s a t e l l i t e by uniE019;
   sub m a p by uniE020;
   sub s c r e e n underscore f u l l by uniE021;
@@ -79,23 +64,64 @@
   sub i n f o underscore l i n e by uniE070;
   sub c u p by uniE071;
   sub r a t e by uniE072;
-  sub t u underscore o p i n i o n by uniE073;
-  sub y o u r underscore o p i n i o n by uniE074;
-  sub t r i underscore l u by uniE075;
-  sub t r i underscore r u by uniE076;
-  sub t r i underscore r d by uniE077;
-  sub t r i underscore l d by uniE078;
-  sub t r i underscore u by uniE079;
-  sub t r i underscore r by uniE080;
-  sub t r i underscore d by uniE081;
-  sub t r i underscore l by uniE082;
+
+  sub t r i underscore l e f t underscore u p by uniE075;
+  sub t r i underscore r i g h t underscore u p by uniE076;
+  sub t r i underscore r i g h t underscore d o w n by uniE077;
+  sub t r i underscore l e f t underscore d o w n by uniE078;
+  sub t r i underscore u p by uniE079;
+  sub t r i underscore r i g h t by uniE080;
+  sub t r i underscore d o w n by uniE081;
+  sub t r i underscore l e f t by uniE082;
   sub p o l i t i c i a n by uniE083;
   sub s o u n d underscore w r i t e by uniE084;
   sub t e x t underscore s p e a k by uniE085;
   sub j u d g e by uniE086;
   sub c h a r t by uniE087;
   sub l i s t e n i n g by uniE088;
-  sub u r l by uniE089;
   sub n o underscore a d s by uniE090;
   sub a w a r d by uniE091;
-  sub y o u t u b e by uniE092;
+
+  sub s e n d by uniE00A; #tags sent
+  sub p e r s o n by uniE00B; #tags user, account
+  sub p e o p l e by uniE00C; #tags group
+
+  sub r e f r e s h by uniE02C;
+
+  sub e x i t underscore t o underscore a p p by uniE0A6;
+  sub m e n u by uniE0A7; #tags hamburger
+  sub m o r e underscore v e r t by uniE0A8; #tags menu
+  sub m o r e underscore h o r i z by uniE0A9; #tags menu
+
+  sub p h o n e by uniE0B9; #tags telephone
+  sub h o m e by uniE0BA; #tags house
+  sub l a n g u a g e by uniE0BB; #tags globe
+  sub u r l by uniE0BC; #tags link
+
+  sub p l a c e by uniE0CA; #tags location, pin
+  sub m a i l by uniE0CB; #tags email
+
+  sub g i f t by uniE0FB; #tags prize, redeem
+  sub t i m e by uniE0FC; #tags clock, schedule, watch
+
+  sub v e r i f i e d by uniE1E1; #tags shield, security
+  sub v e r i f i e d underscore u s e r by uniE1E2; #tags shield
+  sub l o c k by uniE1E3; #tags padlock
+  sub l o c k underscore o p e n by uniE1E4; #tags padlock
+
+  sub v i s i b i l i t y by uniE205; #tags eye, show
+  sub v i s i b i l i t y underscore o f f by uniE206; #tags eye, hide
+
+  sub b r i g h t n e s s underscore one by uniE289;
+  sub b r i g h t n e s s underscore two by uniE28A;
+  sub b r i g h t n e s s underscore three by uniE28B;
+  sub b r i g h t n e s s underscore four by uniE28C;
+  sub b r i g h t n e s s underscore five by uniE28D;
+  sub b r i g h t n e s s underscore six by uniE28E;
+  sub b r i g h t n e s s underscore seven by uniE28F;
+
+#social
+
+#logos
+  sub g i t l a b by uniE2A1;
+  sub n p m by uniE2A2;

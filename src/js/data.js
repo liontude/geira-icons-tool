@@ -1,57 +1,7 @@
 window.iconsOriginal = [
   {
-    name: "brightness_1",
-    uni: "E289",
-    tags: ""
-  },
-  {
-    name: "brightness_2",
-    uni: "E28A",
-    tags: ""
-  },
-  {
-    name: "brightness_3",
-    uni: "E28B",
-    tags: ""
-  },
-  {
-    name: "brightness_4",
-    uni: "E28C",
-    tags: ""
-  },
-  {
-    name: "email",
-    uni: "E000",
-    tags: ""
-  },
-  {
-    name: "phone",
-    uni: "E001",
-    tags: ""
-  },
-  {
-    name: "user",
-    uni: "E002",
-    tags: "shield"
-  },
-  {
-    name: "lock",
-    uni: "E003",
-    tags: "prize, redeem"
-  },
-  {
     name: "face_id",
     uni: "E004",
-    tags: "eye"
-  },
-  {
-    name: "home",
-    uni: "E005",
-    tags: ""
-  },
-  {
-    name: "reset",
-    uni: "E006",
     tags: ""
   },
   {
@@ -65,23 +15,8 @@ window.iconsOriginal = [
     tags: ""
   },
   {
-    name: "hamburger",
-    uni: "E009",
-    tags: ""
-  },
-  {
     name: "close",
     uni: "E010",
-    tags: ""
-  },
-  {
-    name: "dots_hoz",
-    uni: "E011",
-    tags: "location"
-  },
-  {
-    name: "dots_ver",
-    uni: "E012",
     tags: ""
   },
   {
@@ -107,11 +42,6 @@ window.iconsOriginal = [
   {
     name: "map_add",
     uni: "E017",
-    tags: ""
-  },
-  {
-    name: "places",
-    uni: "E018",
     tags: ""
   },
   {
@@ -385,52 +315,42 @@ window.iconsOriginal = [
     tags: ""
   },
   {
-    name: "tu_opinion",
-    uni: "E073",
-    tags: ""
-  },
-  {
-    name: "your_opinion",
-    uni: "E074",
-    tags: ""
-  },
-  {
-    name: "tri_lu",
+    name: "tri_left_up",
     uni: "E075",
     tags: ""
   },
   {
-    name: "tri_ru",
+    name: "tri_right_up",
     uni: "E076",
     tags: ""
   },
   {
-    name: "tri_rd",
+    name: "tri_right_down",
     uni: "E077",
     tags: ""
   },
   {
-    name: "tri_ld",
+    name: "tri_left_down",
     uni: "E078",
     tags: ""
   },
   {
-    name: "tri_u",
+    name: "tri_up",
     uni: "E079",
     tags: ""
   },
   {
-    name: "tri_r",
+    name: "tri_right",
     uni: "E080",
     tags: ""
   },
   {
-    name: "tri_d",
+    name: "tri_down",
     uni: "E081",
     tags: ""
   },
   {
-    name: "tri_l",
+    name: "tri_left",
     uni: "E082",
     tags: ""
   },
@@ -465,11 +385,6 @@ window.iconsOriginal = [
     tags: ""
   },
   {
-    name: "url",
-    uni: "E089",
-    tags: ""
-  },
-  {
     name: "no_ads",
     uni: "E090",
     tags: ""
@@ -480,8 +395,158 @@ window.iconsOriginal = [
     tags: ""
   },
   {
-    name: "youtube",
-    uni: "E092",
+    name: "send",
+    uni: "E00A",
+    tags: "sent"
+  },
+  {
+    name: "person",
+    uni: "E00B",
+    tags: "user, account"
+  },
+  {
+    name: "people",
+    uni: "E00C",
+    tags: "group"
+  },
+  {
+    name: "refresh",
+    uni: "E02C",
+    tags: ""
+  },
+  {
+    name: "exit_to_app",
+    uni: "E0A6",
+    tags: ""
+  },
+  {
+    name: "menu",
+    uni: "E0A7",
+    tags: "hamburger"
+  },
+  {
+    name: "more_vert",
+    uni: "E0A8",
+    tags: "menu"
+  },
+  {
+    name: "more_horiz",
+    uni: "E0A9",
+    tags: "menu"
+  },
+  {
+    name: "phone",
+    uni: "E0B9",
+    tags: "telephone"
+  },
+  {
+    name: "home",
+    uni: "E0BA",
+    tags: "house"
+  },
+  {
+    name: "language",
+    uni: "E0BB",
+    tags: "globe"
+  },
+  {
+    name: "url",
+    uni: "E0BC",
+    tags: "link"
+  },
+  {
+    name: "place",
+    uni: "E0CA",
+    tags: "location, pin"
+  },
+  {
+    name: "mail",
+    uni: "E0CB",
+    tags: "email"
+  },
+  {
+    name: "gift",
+    uni: "E0FB",
+    tags: "prize, redeem"
+  },
+  {
+    name: "time",
+    uni: "E0FC",
+    tags: "clock, schedule, watch"
+  },
+  {
+    name: "verified",
+    uni: "E1E1",
+    tags: "shield, security"
+  },
+  {
+    name: "verified_user",
+    uni: "E1E2",
+    tags: "shield"
+  },
+  {
+    name: "lock",
+    uni: "E1E3",
+    tags: "padlock"
+  },
+  {
+    name: "lock_open",
+    uni: "E1E4",
+    tags: "padlock"
+  },
+  {
+    name: "visibility",
+    uni: "E205",
+    tags: "eye, show"
+  },
+  {
+    name: "visibility_off",
+    uni: "E206",
+    tags: "eye, hide"
+  },
+  {
+    name: "brightness_1",
+    uni: "E289",
+    tags: ""
+  },
+  {
+    name: "brightness_2",
+    uni: "E28A",
+    tags: ""
+  },
+  {
+    name: "brightness_3",
+    uni: "E28B",
+    tags: ""
+  },
+  {
+    name: "brightness_4",
+    uni: "E28C",
+    tags: ""
+  },
+  {
+    name: "brightness_5",
+    uni: "E28D",
+    tags: ""
+  },
+  {
+    name: "brightness_6",
+    uni: "E28E",
+    tags: ""
+  },
+  {
+    name: "brightness_7",
+    uni: "E28F",
+    tags: ""
+  },
+  {
+    name: "gitlab",
+    uni: "E2A1",
+    tags: ""
+  },
+  {
+    name: "npm",
+    uni: "E2A2",
     tags: ""
   }
 ];
