@@ -4,9 +4,12 @@
   "description": "Geira Icon Font",
   "main": "dist/geira-icons.min.css",
   "scripts": {
+    "prebuild": "npm run process-iconfont",
     "build": "webpack",
+    "prestart": "npm run process-iconfont",
     "start": "webpack-dev-server --mode development --open",
-    "prepublish": "npm run build"
+    "prepublish": "npm run process-iconfont && npm run build",
+    "process-iconfont": "node tools/process-iconfont"
   },
   "keywords": [
     "geira",
