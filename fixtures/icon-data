@@ -1,12 +1,7 @@
   sub f a c e underscore i d by uniE004;
 
-  sub g e a r by uniE007;
   sub s e r v i c e s by uniE008;
 
-  sub c l o s e by uniE010;
-
-  sub c l o s e underscore c i r c l e by uniE013;
-  sub c l o s e underscore l i n e by uniE014;
   sub j o b s by uniE015;
   sub m a p underscore g o by uniE016;
   sub m a p underscore a d d by uniE017;
@@ -16,7 +11,7 @@
   sub s c r e e n by uniE022;
   sub l o c a t i o n by uniE023;
   sub c o m p a s s by uniE024;
-  sub s e a r c h by uniE025;
+
   sub d e l e t e by uniE026;
   sub t e s t by uniE027;
   sub p o s t s by uniE028;
@@ -26,7 +21,7 @@
   sub h a l f underscore s t a r by uniE032;
   sub s t a r underscore l i n e by uniE033;
   sub s t a r by uniE034;
-  sub a l e r t by uniE035;
+
   sub v o i c e by uniE036;
   sub a u d i o underscore p l a y by uniE037;
   sub a u d i o by uniE038;
@@ -42,8 +37,6 @@
   sub c a r e t underscore d o w n by uniE048;
   sub r a n d o m by uniE049;
   sub n o underscore r a n d o m by uniE050;
-  sub t h u m b	underscore u p by uniE051;
-  sub t h u m b	underscore d o w n by uniE052;
   sub c h e c k e d by uniE053;
   sub c h e c k by uniE054;
   sub r a d i o underscore s e l e c t e d by uniE055;
@@ -58,8 +51,7 @@
   sub e d i t by uniE064;
   sub t e x t underscore o u t by uniE065;
   sub t e x t underscore i n by uniE066;
-  sub e y e by uniE067;
-  sub b l i n d by uniE068;
+
   sub i n f o by uniE069;
   sub i n f o underscore l i n e by uniE070;
   sub c u p by uniE071;
@@ -88,6 +80,7 @@
 
   sub r e f r e s h by uniE02C;
 
+  sub l a u n c h by uniE0A5; #tags exit, open, dialog, modal
   sub e x i t underscore t o underscore a p p by uniE0A6;
   sub m e n u by uniE0A7; #tags hamburger
   sub m o r e underscore v e r t by uniE0A8; #tags menu
@@ -99,7 +92,7 @@
   sub u r l by uniE0BC; #tags link
 
   sub p l a c e by uniE0CA; #tags location, pin
-  sub m a i l by uniE0CB; #tags email
+  sub m a i l by uniE0CB; #tags email, envelope
 
   sub g i f t by uniE0FB; #tags prize, redeem
   sub t i m e by uniE0FC; #tags clock, schedule, watch
@@ -111,7 +104,33 @@
 
   sub v i s i b i l i t y by uniE205; #tags eye, show
   sub v i s i b i l i t y underscore o f f by uniE206; #tags eye, hide
+  sub t h u m b underscore u p by uniE207; #tags like
+  sub t h u m b underscore d o w n by uniE208; #tags like, unlike, dislike
+  sub f a v o r i t e underscore b o r d e r by uniE209; #tags like, heart
+  sub f a v o r i t e by uniE20A; #tags like, heart
+  sub f a v o r i t e underscore d i s l i k e by uniE20B; #tags heart, like, unlike, dislike
 
+  sub e v e n t underscore a v a i l a b l e by uniE231; #calendar, event, date, appointment, schedule
+
+  sub c a m p a i n g by uniE23B; #tags megaphone, bullhorn, mic, marketing
+
+  sub p u s h underscore p i n by uniE244; #tags magnifying, zoom
+  sub s e a r c h by uniE245; #tags magnifying, zoom
+
+  sub c a m e r a by uniE254; #tags photo
+
+  sub i m a g e s by uniE256; #tags collections, photos, gallery, media
+
+  sub c l o s e by uniE25B; #tags cancel, clear, close
+  sub c a n c e l by uniE25C; #tags cancel, clear, close
+  sub f i l t e r by uniE25D; #tags sort
+  sub e d i t by uniE25E; #tags create
+  sub s e t t i n g s by uniE25F; #tags gear
+
+  sub s t o r e by uniE26C; #tags storefront, business, local
+  sub d r i n k by uniE26D; #tags amenity, bar, wine
+
+  sub c a s h i e r by uniE288; #tags pos, cash, register
   sub b r i g h t n e s s underscore one by uniE289;
   sub b r i g h t n e s s underscore two by uniE28A;
   sub b r i g h t n e s s underscore three by uniE28B;
@@ -121,6 +140,11 @@
   sub b r i g h t n e s s underscore seven by uniE28F;
 
 #social
+
+  sub f a c e b o o k by uniE291; #tags social
+  sub t w i t t e r by uniE292; #tags social
+  sub y o u t u b e by uniE293; #tags social
+  sub i n s t a g r a m by uniE294; #tags social
 
 #logos
   sub g i t l a b by uniE2A1;

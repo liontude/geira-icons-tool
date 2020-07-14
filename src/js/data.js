@@ -5,28 +5,8 @@ window.iconsOriginal = [
     tags: ""
   },
   {
-    name: "gear",
-    uni: "E007",
-    tags: ""
-  },
-  {
     name: "services",
     uni: "E008",
-    tags: ""
-  },
-  {
-    name: "close",
-    uni: "E010",
-    tags: ""
-  },
-  {
-    name: "close_circle",
-    uni: "E013",
-    tags: ""
-  },
-  {
-    name: "close_line",
-    uni: "E014",
     tags: ""
   },
   {
@@ -75,11 +55,6 @@ window.iconsOriginal = [
     tags: ""
   },
   {
-    name: "search",
-    uni: "E025",
-    tags: ""
-  },
-  {
     name: "delete",
     uni: "E026",
     tags: ""
@@ -122,11 +97,6 @@ window.iconsOriginal = [
   {
     name: "star",
     uni: "E034",
-    tags: ""
-  },
-  {
-    name: "alert",
-    uni: "E035",
     tags: ""
   },
   {
@@ -205,16 +175,6 @@ window.iconsOriginal = [
     tags: ""
   },
   {
-    name: "thumb_up",
-    uni: "E051",
-    tags: ""
-  },
-  {
-    name: "thumb_down",
-    uni: "E052",
-    tags: ""
-  },
-  {
     name: "checked",
     uni: "E053",
     tags: ""
@@ -282,16 +242,6 @@ window.iconsOriginal = [
   {
     name: "text_in",
     uni: "E066",
-    tags: ""
-  },
-  {
-    name: "eye",
-    uni: "E067",
-    tags: ""
-  },
-  {
-    name: "blind",
-    uni: "E068",
     tags: ""
   },
   {
@@ -415,6 +365,11 @@ window.iconsOriginal = [
     tags: ""
   },
   {
+    name: "launch",
+    uni: "E0A5",
+    tags: "exit, open, dialog, modal"
+  },
+  {
     name: "exit_to_app",
     uni: "E0A6",
     tags: ""
@@ -462,7 +417,7 @@ window.iconsOriginal = [
   {
     name: "mail",
     uni: "E0CB",
-    tags: "email"
+    tags: "email, envelope"
   },
   {
     name: "gift",
@@ -505,6 +460,101 @@ window.iconsOriginal = [
     tags: "eye, hide"
   },
   {
+    name: "thumb_up",
+    uni: "E207",
+    tags: "like"
+  },
+  {
+    name: "thumb_down",
+    uni: "E208",
+    tags: "like, unlike, dislike"
+  },
+  {
+    name: "favorite_border",
+    uni: "E209",
+    tags: "like, heart"
+  },
+  {
+    name: "favorite",
+    uni: "E20A",
+    tags: "like, heart"
+  },
+  {
+    name: "favorite_dislike",
+    uni: "E20B",
+    tags: "heart, like, unlike, dislike"
+  },
+  {
+    name: "event_available",
+    uni: "E231",
+    tags: "#calendar, event, date, appointment, schedule"
+  },
+  {
+    name: "campaing",
+    uni: "E23B",
+    tags: "megaphone, bullhorn, mic, marketing"
+  },
+  {
+    name: "push_pin",
+    uni: "E244",
+    tags: "magnifying, zoom"
+  },
+  {
+    name: "search",
+    uni: "E245",
+    tags: "magnifying, zoom"
+  },
+  {
+    name: "camera",
+    uni: "E254",
+    tags: "photo"
+  },
+  {
+    name: "images",
+    uni: "E256",
+    tags: "collections, photos, gallery, media"
+  },
+  {
+    name: "close",
+    uni: "E25B",
+    tags: "cancel, clear, close"
+  },
+  {
+    name: "cancel",
+    uni: "E25C",
+    tags: "cancel, clear, close"
+  },
+  {
+    name: "filter",
+    uni: "E25D",
+    tags: "sort"
+  },
+  {
+    name: "edit",
+    uni: "E25E",
+    tags: "create"
+  },
+  {
+    name: "settings",
+    uni: "E25F",
+    tags: "gear"
+  },
+  {
+    name: "store",
+    uni: "E26C",
+    tags: "storefront, business, local"
+  },
+  {
+    name: "drink",
+    uni: "E26D",
+    tags: "amenity, bar, wine"
+  },
+  {
+    name: "cashier",
+    uni: "E288",
+    tags: "pos, cash, register"
+  },
+  {
     name: "brightness_1",
     uni: "E289",
     tags: ""
@@ -538,6 +588,26 @@ window.iconsOriginal = [
     name: "brightness_7",
     uni: "E28F",
     tags: ""
+  },
+  {
+    name: "facebook",
+    uni: "E291",
+    tags: "social"
+  },
+  {
+    name: "twitter",
+    uni: "E292",
+    tags: "social"
+  },
+  {
+    name: "youtube",
+    uni: "E293",
+    tags: "social"
+  },
+  {
+    name: "instagram",
+    uni: "E294",
+    tags: "social"
   },
   {
     name: "gitlab",

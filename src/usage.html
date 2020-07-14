@@ -19,9 +19,72 @@
       <li><a href="https://gitlab.com/liontude/geira/iconfont" target="_blank"><i class="geira-icons">gitlab</i></a></li>
     </ul>
   </header>
-  <div class="container center">
+  <div class="container center" style="width: 95%; max-width: 800px; align-self: center">
 
-    <h3 style="margin-top: 110px">In HTML</h3>
+
+    <!-- npm installation -->
+
+    <h2 style="margin-top: 110px">NPM installation</h2>
+    <div class="block row" style="place-content: center">
+      <div class="icons-code">
+        <code>
+          npm install --save @geira/iconfont
+        </code>
+      </div>
+    </div>
+
+    <h4>Link to CSS</h4>
+    <p>Add the following tag inside the html &lt;head&gt; tag</p>
+    <div class="block row" style="place-content: center">
+      <div class="icons-code">
+        <code>
+          &lt;link href="node_components/@geira/iconfont/dist/geira-icons.min.css" rel="stylesheet"&gt;
+        </code>
+      </div>
+    </div>
+
+    <h4>or import into SCSS</h4>
+    <p>Import the provided SCSS file in your main SCSS file, ex: styles.scss</p>
+    <div class="block row" style="place-content: center">
+      <div class="icons-code">
+        <code>
+          @import '~@geira/iconfont/dist/geira-icons.scss';
+        </code>
+      </div>
+    </div>
+
+    <!-- /npm installation -->
+
+    <h4>Like Material Icon with Angular</h4>
+    <p>Geira Icons are similar to Material Icons. If you want to use them with or instead of Material Icons, click the link <a href="https://material.angular.io/components/icon/overview" target="_blank">https://material.angular.io/components/icon/overview</a></p>
+
+    <h2 style="margin-top: 50px">Standard installation</h2>
+
+    <h4>Link to CSS</h4>
+    <p>Add the following tag inside the html &lt;head&gt; tag</p>
+    <div class="block row" style="place-content: center">
+      <div class="icons-code">
+        <code>
+          &lt;link href="./geira-icons.min.css" rel="stylesheet"&gt;
+        </code>
+      </div>
+    </div>
+
+    <p>In CSS (geira-icons.min.css) be sure that the path to the icons (fonts) is correct</p>
+    <div class="block row" style="place-content: center">
+      <div class="icons-code">
+        <code>
+          src : url(./fonts/GeiraIcons-Regular.eot);<br>
+          url(./fonts/GeiraIcons-Regular.woff2) format('woff2'),<br>
+          url(./fonts/GeiraIcons-Regular.woff) format('woff'),<br>
+          url(./fonts/GeiraIcons-Regular.ttf) format('truetype');
+        </code>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 50px">Usage</h2>
+
+    <h4>Via html</h4>
     <div class="block row">
       <div class="icons-preview">
         <i class="geira-icons">home</i>
@@ -47,7 +110,7 @@
       </div>
     </div>
 
-    <h3 style="margin-top: 50px">In CSS</h3>
+    <h4>Via CSS</h4>
 
     <div class="block row" style="place-content: center">
       <div class="icons-code">
@@ -71,7 +134,7 @@
     </div>
 
     <h3 style="margin-top: 50px">Styling</h3>
-    <p style="margin-bottom: 10px">Size</p>
+    <h5>Size</h5>
 
     <div class="block row">
       <div class="icons-preview">
@@ -118,7 +181,7 @@
     </div>
 
     <!-- COLOR -->
-    <p style="margin-bottom: 10px; margin-top: 30px">Color</p>
+    <h5>Color</h5>
 
     <div class="block row">
       <div class="icons-preview" style="background-color: #263238">
@@ -148,7 +211,7 @@
       </div>
       <div class="icons-code">
         <code>&lt;i
-          class="geira-icons gi-light gi-inactive"&gt;home&lt;/i&gt;
+          class="geira-icons gi-light"&gt;home&lt;/i&gt;
         </code>
       </div>
     </div>
@@ -168,7 +231,7 @@
 
     <!-- ROTATE -->
 
-    <p style="margin-bottom: 10px; margin-top: 30px">Rotate</p>
+    <h5>Rotate</h5>
 
     <div class="block row">
       <div class="icons-preview">
@@ -249,7 +312,7 @@
 
     <!-- /ROTATE -->
 
-    <p style="margin-bottom: 10px; margin-top: 30px">Flip</p>
+    <h5>Flip</h5>
 
     <div class="block row">
       <div class="icons-preview">
@@ -273,7 +336,7 @@
       </div>
     </div>
 
-    <p style="margin-bottom: 10px; margin-top: 30px">Spin</p>
+    <h5>Spin</h5>
 
     <div class="block row">
       <div class="icons-preview">
