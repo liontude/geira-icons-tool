@@ -11,6 +11,7 @@ module.exports = () => {
     entry    : {
       data         : './src/js/data.js',
       main         : './src/js/script.js',
+      utils        : './src/js/utils.js',
       'geira-icons': './src/scss/geira-icons.scss',
       styles       : './src/scss/styles.scss'
     },
@@ -35,7 +36,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         filename: 'usage.html',
         template: 'src/usage.html',
-        chunks  : ['geira-icons', 'styles']
+        chunks  : ['data', 'utils', 'geira-icons', 'styles']
       }),
       new CopyWebpackPlugin({
         patterns: [
@@ -50,6 +51,14 @@ module.exports = () => {
           {
             from: './src/scss/geira-icons.scss',
             to  : './'
+          }
+        ]
+      }),
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            from: './src/images',
+            to  : './images'
           }
         ]
       }),
