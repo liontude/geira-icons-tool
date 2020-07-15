@@ -59,7 +59,7 @@ header h1 {
 }
 
 header a {
-  color   : #00838f;
+  color : #00838f;
 }
 
 header ul li {
@@ -70,16 +70,18 @@ header ul li {
 }
 
 header ul.logos {
-  padding-right : 20px;
+  padding-right : 10px;
 }
 
 header ul.logos li {
-  padding : 0;
+  padding : 0 10px;
 }
 
 header ul li a {
   color           : #00838f;
   text-decoration : none;
+  display         : flex;
+  align-items     : center;
 }
 
 header ul.logos li a i {
@@ -87,7 +89,7 @@ header ul.logos li a i {
 }
 
 header ul li.active a {
-  color  : #FF8A65;
+  color  : #ff8a65;
   cursor : default;
 }
 
@@ -212,15 +214,18 @@ span.tags {
 }
 
 #quantity {
-  color: #78909C;
-  font-size: .8em;
+  color            : #90A4AE;
+  font-size        : .8em;
+  background-color : #ffffff;
+  padding          : 2px 5px;
+  margin-left: 4px;
+  border-radius: 5px;
 }
 
 #version {
-  font-size: .4em;
-  color: #546E7A;
+  font-size : .4em;
+  color     : #546e7a;
 }
-
 
 footer {
   background-color : #fbe9e7;

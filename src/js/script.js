@@ -103,7 +103,7 @@
         document.getElementById("dec" + numberId.toString()).textContent = g(t);
     }
 
-    document.getElementById("quantity").textContent = "("+iconsCount.toString()+")";
+    document.getElementById("quantity").textContent = iconsCount.toString();
 
   function searcher() {
     // Declare variables
