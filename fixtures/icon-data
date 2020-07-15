@@ -1,7 +1,5 @@
   sub f a c e underscore i d by uniE004;
-
   sub s e r v i c e s by uniE008;
-
   sub j o b s by uniE015;
   sub m a p underscore g o by uniE016;
   sub m a p underscore a d d by uniE017;
@@ -18,23 +16,12 @@
   sub d o c s by uniE029;
   sub f l i p underscore c a r d by uniE030;
   sub f a q s by uniE031;
-  sub h a l f underscore s t a r by uniE032;
-  sub s t a r underscore l i n e by uniE033;
-  sub s t a r by uniE034;
 
   sub v o i c e by uniE036;
   sub a u d i o underscore p l a y by uniE037;
   sub a u d i o by uniE038;
   sub a u d i o underscore m u t e by uniE039;
   sub g o o d by uniE040;
-  sub a r r o w underscore l e f t by uniE041;
-  sub a r r o w underscore r i g h t by uniE042;
-  sub a r r o w underscore d o w n by uniE043;
-  sub a r r o w underscore u p by uniE044;
-  sub c a r e t underscore l e f t by uniE045;
-  sub c a r e t underscore r i g h t by uniE046;
-  sub c a r e t by uniE047;
-  sub c a r e t underscore d o w n by uniE048;
   sub r a n d o m by uniE049;
   sub n o underscore r a n d o m by uniE050;
   sub c h e c k e d by uniE053;
@@ -43,12 +30,7 @@
   sub r a d i o by uniE056;
   sub r e a d underscore d o w n by uniE057;
   sub r e a d underscore u p by uniE058;
-  sub p l u s underscore l i n e by uniE059;
-  sub m i n u s underscore l i n e by uniE060;
-  sub p l u s by uniE061;
-  sub m i n u s by uniE062;
-  sub s h a r e by uniE063;
-  sub e d i t by uniE064;
+
   sub t e x t underscore o u t by uniE065;
   sub t e x t underscore i n by uniE066;
 
@@ -78,7 +60,16 @@
   sub p e r s o n by uniE00B; #tags user, account
   sub p e o p l e by uniE00C; #tags group
 
-  sub r e f r e s h by uniE02C;
+  sub r e f r e s h by uniE02C; #tags reset
+  sub c h e v r o n underscore u p by uniE02D; #tags arrow, expand, keyboard, caret
+  sub c h e v r o n underscore r i g h t by uniE02E; #tags arrow, forward, keyboard, navigate, caret
+  sub c h e v r o n underscore d o w n by uniE02F; #tags arrow, expand, keyboard, caret
+  sub c h e v r o n underscore l e f t by uniE03A; #tags arrow, back, keyboard, navigate, caret
+  sub a r r o w underscore u p by uniE03B; #tags chevron, keyboard
+  sub a r r o w underscore r i g h t by uniE03C; #tags chevron, forward, keyboard
+  sub a r r o w underscore d o w n by uniE03D; #tags chevron, keyboard
+  sub a r r o w underscore l e f t by uniE03E; #tags chevron, back, keyboard
+
 
   sub l a u n c h by uniE0A5; #tags exit, open, dialog, modal
   sub e x i t underscore t o underscore a p p by uniE0A6;
@@ -109,9 +100,15 @@
   sub f a v o r i t e underscore b o r d e r by uniE209; #tags like, heart
   sub f a v o r i t e by uniE20A; #tags like, heart
   sub f a v o r i t e underscore d i s l i k e by uniE20B; #tags heart, like, unlike, dislike
+  sub s h a r e by uniE20C;
+  sub b o o k m a r k by uniE20D;
+  sub s t a r underscore b o r d e r by uniE20E; #tags grade, rate
+  sub s t a r underscore h a l f by uniE20F; #tags rate
+  sub s t a r by uniE210; #tags rate
 
   sub e v e n t underscore a v a i l a b l e by uniE231; #calendar, event, date, appointment, schedule
 
+  sub d a s h b o a r d by uniE23A;
   sub c a m p a i n g by uniE23B; #tags megaphone, bullhorn, mic, marketing
 
   sub p u s h underscore p i n by uniE244; #tags magnifying, zoom
@@ -119,8 +116,12 @@
 
   sub c a m e r a by uniE254; #tags photo
 
-  sub i m a g e s by uniE256; #tags collections, photos, gallery, media
+  sub i m a g e s by uniE256; #tags collections, photos, gallery, media, image
+  sub r e m o v e by uniE257; #tags minus
+  sub r e m o v e underscore c i r c l e by uniE257; #tags minus
 
+  sub a d d by uniE259; #tags plus
+  sub a d d underscore c i r c l e by uniE25A; #tags plus
   sub c l o s e by uniE25B; #tags cancel, clear, close
   sub c a n c e l by uniE25C; #tags cancel, clear, close
   sub f i l t e r by uniE25D; #tags sort

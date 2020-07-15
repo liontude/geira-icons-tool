@@ -85,21 +85,6 @@ window.iconsOriginal = [
     tags: ""
   },
   {
-    name: "half_star",
-    uni: "E032",
-    tags: ""
-  },
-  {
-    name: "star_line",
-    uni: "E033",
-    tags: ""
-  },
-  {
-    name: "star",
-    uni: "E034",
-    tags: ""
-  },
-  {
     name: "voice",
     uni: "E036",
     tags: ""
@@ -122,46 +107,6 @@ window.iconsOriginal = [
   {
     name: "good",
     uni: "E040",
-    tags: ""
-  },
-  {
-    name: "arrow_left",
-    uni: "E041",
-    tags: ""
-  },
-  {
-    name: "arrow_right",
-    uni: "E042",
-    tags: ""
-  },
-  {
-    name: "arrow_down",
-    uni: "E043",
-    tags: ""
-  },
-  {
-    name: "arrow_up",
-    uni: "E044",
-    tags: ""
-  },
-  {
-    name: "caret_left",
-    uni: "E045",
-    tags: ""
-  },
-  {
-    name: "caret_right",
-    uni: "E046",
-    tags: ""
-  },
-  {
-    name: "caret",
-    uni: "E047",
-    tags: ""
-  },
-  {
-    name: "caret_down",
-    uni: "E048",
     tags: ""
   },
   {
@@ -202,36 +147,6 @@ window.iconsOriginal = [
   {
     name: "read_up",
     uni: "E058",
-    tags: ""
-  },
-  {
-    name: "plus_line",
-    uni: "E059",
-    tags: ""
-  },
-  {
-    name: "minus_line",
-    uni: "E060",
-    tags: ""
-  },
-  {
-    name: "plus",
-    uni: "E061",
-    tags: ""
-  },
-  {
-    name: "minus",
-    uni: "E062",
-    tags: ""
-  },
-  {
-    name: "share",
-    uni: "E063",
-    tags: ""
-  },
-  {
-    name: "edit",
-    uni: "E064",
     tags: ""
   },
   {
@@ -362,7 +277,47 @@ window.iconsOriginal = [
   {
     name: "refresh",
     uni: "E02C",
-    tags: ""
+    tags: "reset"
+  },
+  {
+    name: "chevron_up",
+    uni: "E02D",
+    tags: "arrow, expand, keyboard, caret"
+  },
+  {
+    name: "chevron_right",
+    uni: "E02E",
+    tags: "arrow, forward, keyboard, navigate, caret"
+  },
+  {
+    name: "chevron_down",
+    uni: "E02F",
+    tags: "arrow, expand, keyboard, caret"
+  },
+  {
+    name: "chevron_left",
+    uni: "E03A",
+    tags: "arrow, back, keyboard, navigate, caret"
+  },
+  {
+    name: "arrow_up",
+    uni: "E03B",
+    tags: "chevron, keyboard"
+  },
+  {
+    name: "arrow_right",
+    uni: "E03C",
+    tags: "chevron, forward, keyboard"
+  },
+  {
+    name: "arrow_down",
+    uni: "E03D",
+    tags: "chevron, keyboard"
+  },
+  {
+    name: "arrow_left",
+    uni: "E03E",
+    tags: "chevron, back, keyboard"
   },
   {
     name: "launch",
@@ -485,9 +440,39 @@ window.iconsOriginal = [
     tags: "heart, like, unlike, dislike"
   },
   {
+    name: "share",
+    uni: "E20C",
+    tags: ""
+  },
+  {
+    name: "bookmark",
+    uni: "E20D",
+    tags: ""
+  },
+  {
+    name: "star_border",
+    uni: "E20E",
+    tags: "grade, rate"
+  },
+  {
+    name: "star_half",
+    uni: "E20F",
+    tags: "rate"
+  },
+  {
+    name: "star",
+    uni: "E210",
+    tags: "rate"
+  },
+  {
     name: "event_available",
     uni: "E231",
     tags: "#calendar, event, date, appointment, schedule"
+  },
+  {
+    name: "dashboard",
+    uni: "E23A",
+    tags: ""
   },
   {
     name: "campaing",
@@ -512,7 +497,27 @@ window.iconsOriginal = [
   {
     name: "images",
     uni: "E256",
-    tags: "collections, photos, gallery, media"
+    tags: "collections, photos, gallery, media, image"
+  },
+  {
+    name: "remove",
+    uni: "E257",
+    tags: "minus"
+  },
+  {
+    name: "remove_circle",
+    uni: "E257",
+    tags: "minus"
+  },
+  {
+    name: "add",
+    uni: "E259",
+    tags: "plus"
+  },
+  {
+    name: "add_circle",
+    uni: "E25A",
+    tags: "plus"
   },
   {
     name: "close",
