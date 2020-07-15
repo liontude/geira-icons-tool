@@ -506,7 +506,7 @@ window.iconsOriginal = [
   },
   {
     name: "remove_circle",
-    uni: "E257",
+    uni: "E258",
     tags: "minus"
   },
   {

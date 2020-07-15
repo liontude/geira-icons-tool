@@ -1,4 +1,4 @@
-  sub f a c e underscore i d by uniE004;
+sub f a c e underscore i d by uniE004;
   sub s e r v i c e s by uniE008;
   sub j o b s by uniE015;
   sub m a p underscore g o by uniE016;
@@ -118,7 +118,7 @@
 
   sub i m a g e s by uniE256; #tags collections, photos, gallery, media, image
   sub r e m o v e by uniE257; #tags minus
-  sub r e m o v e underscore c i r c l e by uniE257; #tags minus
+  sub r e m o v e underscore c i r c l e by uniE258; #tags minus
 
   sub a d d by uniE259; #tags plus
   sub a d d underscore c i r c l e by uniE25A; #tags plus
