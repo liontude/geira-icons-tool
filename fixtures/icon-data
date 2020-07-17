@@ -1,36 +1,3 @@
-
-  sub t e s t by uniE027;
-  sub p o s t s by uniE028;
-  sub d o c s by uniE029;
-  sub f l i p underscore c a r d by uniE030;
-  sub f a q s by uniE031;
-
-  sub v o i c e by uniE036;
-  sub a u d i o underscore p l a y by uniE037;
-  sub a u d i o by uniE038;
-  sub a u d i o underscore m u t e by uniE039;
-  sub g o o d by uniE040;
-
-  sub c h e c k e d by uniE053;
-  sub c h e c k by uniE054;
-  sub r a d i o underscore s e l e c t e d by uniE055;
-  sub r a d i o by uniE056;
-
-  sub t e x t underscore o u t by uniE065;
-  sub t e x t underscore i n by uniE066;
-
-  sub c u p by uniE071;
-  sub r a t e by uniE072;
-
-  sub p o l i t i c i a n by uniE083;
-  sub s o u n d underscore w r i t e by uniE084;
-  sub t e x t underscore s p e a k by uniE085;
-  sub j u d g e by uniE086;
-  sub c h a r t by uniE087;
-  sub l i s t e n i n g by uniE088;
-  sub n o underscore a d s by uniE090;
-  sub a w a r d by uniE091;
-
   sub n o t i f i c a t i o n s by uniE000; #tags alert
 
   sub w i f i by uniE004; #tags wireless, router
@@ -40,6 +7,8 @@
   sub p e r s o n by uniE00B; #tags user, account
   sub p e o p l e by uniE00C; #tags group
   sub n o underscore s h o w by uniE00D; #tags person, hide, account, user
+
+  sub c h a r t by uniE02C; #tags poll, analytics, bar
 
   sub r e f r e s h by uniE02C; #tags reset
   sub c h e v r o n underscore u p by uniE02D; #tags arrow, expand, keyboard, caret
@@ -52,6 +21,16 @@
   sub a r r o w underscore l e f t by uniE03E; #tags chevron, back, keyboard
   sub d e l e t e by uniE03F; #tags remove
 
+  sub v o l u m e by uniE04C; #tags sound, speaker
+
+  sub v o l u m e underscore u p by uniE04F; #tags sound, speaker
+  sub v o l u m e underscore o f f by uniE05A; #tags sound, speaker, mute
+  sub h e a r i n g by uniE05B; #tags sound, listening
+  sub m i c by uniE05C; #tags voice, record, audio
+  sub m i c underscore o f f by uniE05D; #tags voice, record, audio
+
+  sub o p e n underscore m e n u by uniE0A1; #tags text
+  sub c l o s e underscore m e n u by uniE0A2; #tags text
 
   sub l a u n c h by uniE0A5; #tags exit, open, dialog, modal
   sub e x i t underscore t o underscore a p p by uniE0A6;
@@ -65,15 +44,35 @@
   sub l a n g u a g e by uniE0BB; #tags globe
   sub u r l by uniE0BC; #tags link
 
-  sub f l a g by uniE0CA; #tags report
-  sub p l a c e by uniE0CA; #tags location, pin
+  sub m a p by uniE0BF; #tags place, location, pin
+
+  sub f l a g by uniE0C9; #tags report
+  sub p l a c e by uniE0CA; #tags location, pin, map
   sub m a i l by uniE0CB; #tags email, envelope
 
+  sub a w a r d by uniE0E7; #tags prize, discount
+  sub t r o p h y by uniE0E8; #tags prize, award
+
+  sub s h o p p i n g underscore c a r t by uniE0F5; #tags checkout
+
   sub p a y m e n t by uniE0F8; #tags credit, card, debit, money
+
 
   sub d e a l by uniE0FA; #tags prize, redeem, promo, discount
   sub g i f t by uniE0FB; #tags prize, redeem, promo, discount
   sub t i m e by uniE0FC; #tags clock, schedule, watch
+
+  sub b o o k by uniE118; #tags study, docs, menu
+  sub t e s t by uniE119; #tags study, exam, quiz
+  sub f l a s h underscore c a r d s by uniE11A; #tags flip
+
+  sub c h e c k by uniE134; #tags mark
+  sub c h e c k underscore o u t l i n e by uniE135; #tags mark
+  sub c h e c k e d by uniE136; #tags square, mark, box
+  sub u n c h e c k e d by uniE137; #tags square, mark, check, box
+
+  sub r t underscore c h e c k e d by uniE139; #tags circle, mark, ratio, button
+  sub r t underscore u n c h e c k e d by uniE13A; #tags circle, mark, ratio, button
 
   sub f a c e underscore i d by uniE177; #tags fingerprint, identity, passcode
 
@@ -88,11 +87,17 @@
   sub b o y by uniE1A3; #tags child, boy, girl, kid
   sub d i s a b l e d by uniE1A4; #tags incapable, helpless, handicapped, invalid, kept, hind
 
+  sub p o l i t i c i a n by uniE1CC; #tags speech, president
+
   sub v e r i f i e d by uniE1E1; #tags shield, security
   sub v e r i f i e d underscore u s e r by uniE1E2; #tags shield
   sub l o c k by uniE1E3; #tags padlock
   sub l o c k underscore o p e n by uniE1E4; #tags padlock
 
+  sub a d v e r t i s i n g by uniE1FA; #tags ads, publicity
+  sub n o underscore a d v e r t i s i n g by uniE1FB; #tags ads, publicity
+
+  sub q u e s t i o n underscore a n s w e r by uniE201; #tags faqs, help, info
   sub i n f o by uniE202; #tags help
   sub h e l p by uniE203; #tags info
   sub e r r o r by uniE204; #tags warning, alert
@@ -108,10 +113,13 @@
   sub s t a r underscore b o r d e r by uniE20E; #tags grade, rate
   sub s t a r underscore h a l f by uniE20F; #tags rate
   sub s t a r by uniE210; #tags rate
+  sub r a t e by uniE211; #tags review, start, comment, thumb
 
-  sub e v e n t underscore a v a i l a b l e by uniE231; #calendar, event, date, appointment, schedule
-  sub u p c o m i n g by uniE232; #calendar, event, date, appointment, schedule
-  sub p a s t by uniE233; #calendar, event, date, appointment, schedule
+  sub d i c t a t i o n by uniE22F; #tags voice, sound, write
+  sub t e x t underscore v o i c e by uniE230; #tags record, speech, mic, oral
+  sub e v e n t underscore a v a i l a b l e by uniE231; #tags calendar, event, date, appointment, schedule
+  sub u p c o m i n g by uniE232; #tags calendar, event, date, appointment, schedule
+  sub p a s t by uniE233; #tags calendar, event, date, appointment, schedule
 
   sub d a s h b o a r d by uniE23A;
   sub c a m p a i n g by uniE23B; #tags megaphone, bullhorn, mic, marketing
@@ -158,3 +166,6 @@
   sub g e i r a by uniE2A0;
   sub g i t l a b by uniE2A1;
   sub n p m by uniE2A2;
+  sub a p p l e underscore l o g o by uniE2A3;
+  sub f a c e b o o k underscore l o g o by uniE2A4;
+  sub g o o g l e underscore l o g o by uniE2A5;

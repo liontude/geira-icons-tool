@@ -1,135 +1,5 @@
 window.iconsOriginal = [
   {
-    name: "test",
-    uni: "E027",
-    tags: ""
-  },
-  {
-    name: "posts",
-    uni: "E028",
-    tags: ""
-  },
-  {
-    name: "docs",
-    uni: "E029",
-    tags: ""
-  },
-  {
-    name: "flip_card",
-    uni: "E030",
-    tags: ""
-  },
-  {
-    name: "faqs",
-    uni: "E031",
-    tags: ""
-  },
-  {
-    name: "voice",
-    uni: "E036",
-    tags: ""
-  },
-  {
-    name: "audio_play",
-    uni: "E037",
-    tags: ""
-  },
-  {
-    name: "audio",
-    uni: "E038",
-    tags: ""
-  },
-  {
-    name: "audio_mute",
-    uni: "E039",
-    tags: ""
-  },
-  {
-    name: "good",
-    uni: "E040",
-    tags: ""
-  },
-  {
-    name: "checked",
-    uni: "E053",
-    tags: ""
-  },
-  {
-    name: "check",
-    uni: "E054",
-    tags: ""
-  },
-  {
-    name: "radio_selected",
-    uni: "E055",
-    tags: ""
-  },
-  {
-    name: "radio",
-    uni: "E056",
-    tags: ""
-  },
-  {
-    name: "text_out",
-    uni: "E065",
-    tags: ""
-  },
-  {
-    name: "text_in",
-    uni: "E066",
-    tags: ""
-  },
-  {
-    name: "cup",
-    uni: "E071",
-    tags: ""
-  },
-  {
-    name: "rate",
-    uni: "E072",
-    tags: ""
-  },
-  {
-    name: "politician",
-    uni: "E083",
-    tags: ""
-  },
-  {
-    name: "sound_write",
-    uni: "E084",
-    tags: ""
-  },
-  {
-    name: "text_speak",
-    uni: "E085",
-    tags: ""
-  },
-  {
-    name: "judge",
-    uni: "E086",
-    tags: ""
-  },
-  {
-    name: "chart",
-    uni: "E087",
-    tags: ""
-  },
-  {
-    name: "listening",
-    uni: "E088",
-    tags: ""
-  },
-  {
-    name: "no_ads",
-    uni: "E090",
-    tags: ""
-  },
-  {
-    name: "award",
-    uni: "E091",
-    tags: ""
-  },
-  {
     name: "notifications",
     uni: "E000",
     tags: "alert"
@@ -163,6 +33,11 @@ window.iconsOriginal = [
     name: "no_show",
     uni: "E00D",
     tags: "person, hide, account, user"
+  },
+  {
+    name: "chart",
+    uni: "E02C",
+    tags: "poll, analytics, bar"
   },
   {
     name: "refresh",
@@ -215,6 +90,46 @@ window.iconsOriginal = [
     tags: "remove"
   },
   {
+    name: "volume",
+    uni: "E04C",
+    tags: "sound, speaker"
+  },
+  {
+    name: "volume_up",
+    uni: "E04F",
+    tags: "sound, speaker"
+  },
+  {
+    name: "volume_off",
+    uni: "E05A",
+    tags: "sound, speaker, mute"
+  },
+  {
+    name: "hearing",
+    uni: "E05B",
+    tags: "sound, listening"
+  },
+  {
+    name: "mic",
+    uni: "E05C",
+    tags: "voice, record, audio"
+  },
+  {
+    name: "mic_off",
+    uni: "E05D",
+    tags: "voice, record, audio"
+  },
+  {
+    name: "open_menu",
+    uni: "E0A1",
+    tags: "text"
+  },
+  {
+    name: "close_menu",
+    uni: "E0A2",
+    tags: "text"
+  },
+  {
     name: "launch",
     uni: "E0A5",
     tags: "exit, open, dialog, modal"
@@ -265,19 +180,39 @@ window.iconsOriginal = [
     tags: "link"
   },
   {
+    name: "map",
+    uni: "E0BF",
+    tags: "place, location, pin"
+  },
+  {
     name: "flag",
-    uni: "E0CA",
+    uni: "E0C9",
     tags: "report"
   },
   {
     name: "place",
     uni: "E0CA",
-    tags: "location, pin"
+    tags: "location, pin, map"
   },
   {
     name: "mail",
     uni: "E0CB",
     tags: "email, envelope"
+  },
+  {
+    name: "award",
+    uni: "E0E7",
+    tags: "prize, discount"
+  },
+  {
+    name: "trophy",
+    uni: "E0E8",
+    tags: "prize, award"
+  },
+  {
+    name: "shopping_cart",
+    uni: "E0F5",
+    tags: "checkout"
   },
   {
     name: "payment",
@@ -298,6 +233,51 @@ window.iconsOriginal = [
     name: "time",
     uni: "E0FC",
     tags: "clock, schedule, watch"
+  },
+  {
+    name: "book",
+    uni: "E118",
+    tags: "study, docs, menu"
+  },
+  {
+    name: "test",
+    uni: "E119",
+    tags: "study, exam, quiz"
+  },
+  {
+    name: "flash_cards",
+    uni: "E11A",
+    tags: "flip"
+  },
+  {
+    name: "check",
+    uni: "E134",
+    tags: "mark"
+  },
+  {
+    name: "check_outline",
+    uni: "E135",
+    tags: "mark"
+  },
+  {
+    name: "checked",
+    uni: "E136",
+    tags: "square, mark, box"
+  },
+  {
+    name: "unchecked",
+    uni: "E137",
+    tags: "square, mark, check, box"
+  },
+  {
+    name: "rt_checked",
+    uni: "E139",
+    tags: "circle, mark, ratio, button"
+  },
+  {
+    name: "rt_unchecked",
+    uni: "E13A",
+    tags: "circle, mark, ratio, button"
   },
   {
     name: "face_id",
@@ -345,6 +325,11 @@ window.iconsOriginal = [
     tags: "incapable, helpless, handicapped, invalid, kept, hind"
   },
   {
+    name: "politician",
+    uni: "E1CC",
+    tags: "speech, president"
+  },
+  {
     name: "verified",
     uni: "E1E1",
     tags: "shield, security"
@@ -363,6 +348,21 @@ window.iconsOriginal = [
     name: "lock_open",
     uni: "E1E4",
     tags: "padlock"
+  },
+  {
+    name: "advertising",
+    uni: "E1FA",
+    tags: "ads, publicity"
+  },
+  {
+    name: "no_advertising",
+    uni: "E1FB",
+    tags: "ads, publicity"
+  },
+  {
+    name: "question_answer",
+    uni: "E201",
+    tags: "faqs, help, info"
   },
   {
     name: "info",
@@ -440,19 +440,34 @@ window.iconsOriginal = [
     tags: "rate"
   },
   {
+    name: "rate",
+    uni: "E211",
+    tags: "review, start, comment, thumb"
+  },
+  {
+    name: "dictation",
+    uni: "E22F",
+    tags: "voice, sound, write"
+  },
+  {
+    name: "text_voice",
+    uni: "E230",
+    tags: "record, speech, mic, oral"
+  },
+  {
     name: "event_available",
     uni: "E231",
-    tags: "#calendar, event, date, appointment, schedule"
+    tags: "calendar, event, date, appointment, schedule"
   },
   {
     name: "upcoming",
     uni: "E232",
-    tags: "#calendar, event, date, appointment, schedule"
+    tags: "calendar, event, date, appointment, schedule"
   },
   {
     name: "past",
     uni: "E233",
-    tags: "#calendar, event, date, appointment, schedule"
+    tags: "calendar, event, date, appointment, schedule"
   },
   {
     name: "dashboard",
@@ -622,6 +637,21 @@ window.iconsOriginal = [
   {
     name: "npm",
     uni: "E2A2",
+    tags: ""
+  },
+  {
+    name: "apple_logo",
+    uni: "E2A3",
+    tags: ""
+  },
+  {
+    name: "facebook_logo",
+    uni: "E2A4",
+    tags: ""
+  },
+  {
+    name: "google_logo",
+    uni: "E2A5",
     tags: ""
   }
 ];
