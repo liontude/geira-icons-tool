@@ -1,65 +1,5 @@
 window.iconsOriginal = [
   {
-    name: "face_id",
-    uni: "E004",
-    tags: ""
-  },
-  {
-    name: "services",
-    uni: "E008",
-    tags: ""
-  },
-  {
-    name: "jobs",
-    uni: "E015",
-    tags: ""
-  },
-  {
-    name: "map_go",
-    uni: "E016",
-    tags: ""
-  },
-  {
-    name: "map_add",
-    uni: "E017",
-    tags: ""
-  },
-  {
-    name: "satellite",
-    uni: "E019",
-    tags: ""
-  },
-  {
-    name: "map",
-    uni: "E020",
-    tags: ""
-  },
-  {
-    name: "screen_full",
-    uni: "E021",
-    tags: ""
-  },
-  {
-    name: "screen",
-    uni: "E022",
-    tags: ""
-  },
-  {
-    name: "location",
-    uni: "E023",
-    tags: ""
-  },
-  {
-    name: "compass",
-    uni: "E024",
-    tags: ""
-  },
-  {
-    name: "delete",
-    uni: "E026",
-    tags: ""
-  },
-  {
     name: "test",
     uni: "E027",
     tags: ""
@@ -110,16 +50,6 @@ window.iconsOriginal = [
     tags: ""
   },
   {
-    name: "random",
-    uni: "E049",
-    tags: ""
-  },
-  {
-    name: "no_random",
-    uni: "E050",
-    tags: ""
-  },
-  {
     name: "checked",
     uni: "E053",
     tags: ""
@@ -140,16 +70,6 @@ window.iconsOriginal = [
     tags: ""
   },
   {
-    name: "read_down",
-    uni: "E057",
-    tags: ""
-  },
-  {
-    name: "read_up",
-    uni: "E058",
-    tags: ""
-  },
-  {
     name: "text_out",
     uni: "E065",
     tags: ""
@@ -160,16 +80,6 @@ window.iconsOriginal = [
     tags: ""
   },
   {
-    name: "info",
-    uni: "E069",
-    tags: ""
-  },
-  {
-    name: "info_line",
-    uni: "E070",
-    tags: ""
-  },
-  {
     name: "cup",
     uni: "E071",
     tags: ""
@@ -177,46 +87,6 @@ window.iconsOriginal = [
   {
     name: "rate",
     uni: "E072",
-    tags: ""
-  },
-  {
-    name: "tri_left_up",
-    uni: "E075",
-    tags: ""
-  },
-  {
-    name: "tri_right_up",
-    uni: "E076",
-    tags: ""
-  },
-  {
-    name: "tri_right_down",
-    uni: "E077",
-    tags: ""
-  },
-  {
-    name: "tri_left_down",
-    uni: "E078",
-    tags: ""
-  },
-  {
-    name: "tri_up",
-    uni: "E079",
-    tags: ""
-  },
-  {
-    name: "tri_right",
-    uni: "E080",
-    tags: ""
-  },
-  {
-    name: "tri_down",
-    uni: "E081",
-    tags: ""
-  },
-  {
-    name: "tri_left",
-    uni: "E082",
     tags: ""
   },
   {
@@ -260,6 +130,21 @@ window.iconsOriginal = [
     tags: ""
   },
   {
+    name: "notifications",
+    uni: "E000",
+    tags: "alert"
+  },
+  {
+    name: "wifi",
+    uni: "E004",
+    tags: "wireless, router"
+  },
+  {
+    name: "chat",
+    uni: "E005",
+    tags: "sms, message"
+  },
+  {
     name: "send",
     uni: "E00A",
     tags: "sent"
@@ -273,6 +158,11 @@ window.iconsOriginal = [
     name: "people",
     uni: "E00C",
     tags: "group"
+  },
+  {
+    name: "no_show",
+    uni: "E00D",
+    tags: "person, hide, account, user"
   },
   {
     name: "refresh",
@@ -320,6 +210,11 @@ window.iconsOriginal = [
     tags: "chevron, back, keyboard"
   },
   {
+    name: "delete",
+    uni: "E03F",
+    tags: "remove"
+  },
+  {
     name: "launch",
     uni: "E0A5",
     tags: "exit, open, dialog, modal"
@@ -345,6 +240,11 @@ window.iconsOriginal = [
     tags: "menu"
   },
   {
+    name: "cell_phone",
+    uni: "E0B8",
+    tags: "mobile, telephone, smart"
+  },
+  {
     name: "phone",
     uni: "E0B9",
     tags: "telephone"
@@ -365,6 +265,11 @@ window.iconsOriginal = [
     tags: "link"
   },
   {
+    name: "flag",
+    uni: "E0CA",
+    tags: "report"
+  },
+  {
     name: "place",
     uni: "E0CA",
     tags: "location, pin"
@@ -375,14 +280,69 @@ window.iconsOriginal = [
     tags: "email, envelope"
   },
   {
+    name: "payment",
+    uni: "E0F8",
+    tags: "credit, card, debit, money"
+  },
+  {
+    name: "deal",
+    uni: "E0FA",
+    tags: "prize, redeem, promo, discount"
+  },
+  {
     name: "gift",
     uni: "E0FB",
-    tags: "prize, redeem"
+    tags: "prize, redeem, promo, discount"
   },
   {
     name: "time",
     uni: "E0FC",
     tags: "clock, schedule, watch"
+  },
+  {
+    name: "face_id",
+    uni: "E177",
+    tags: "fingerprint, identity, passcode"
+  },
+  {
+    name: "ar_horiz",
+    uni: "E181",
+    tags: "aspect, radio"
+  },
+  {
+    name: "ar_vert",
+    uni: "E182",
+    tags: "aspect, radio"
+  },
+  {
+    name: "parking",
+    uni: "E19F",
+    tags: "car, spot"
+  },
+  {
+    name: "bike",
+    uni: "E1A0",
+    tags: "parking, pedal"
+  },
+  {
+    name: "walk",
+    uni: "E1A1",
+    tags: "direction"
+  },
+  {
+    name: "girl",
+    uni: "E1A2",
+    tags: "child, boy, girl, kid"
+  },
+  {
+    name: "boy",
+    uni: "E1A3",
+    tags: "child, boy, girl, kid"
+  },
+  {
+    name: "disabled",
+    uni: "E1A4",
+    tags: "incapable, helpless, handicapped, invalid, kept, hind"
   },
   {
     name: "verified",
@@ -403,6 +363,21 @@ window.iconsOriginal = [
     name: "lock_open",
     uni: "E1E4",
     tags: "padlock"
+  },
+  {
+    name: "info",
+    uni: "E202",
+    tags: "help"
+  },
+  {
+    name: "help",
+    uni: "E203",
+    tags: "info"
+  },
+  {
+    name: "error",
+    uni: "E204",
+    tags: "warning, alert"
   },
   {
     name: "visibility",
@@ -467,6 +442,16 @@ window.iconsOriginal = [
   {
     name: "event_available",
     uni: "E231",
+    tags: "#calendar, event, date, appointment, schedule"
+  },
+  {
+    name: "upcoming",
+    uni: "E232",
+    tags: "#calendar, event, date, appointment, schedule"
+  },
+  {
+    name: "past",
+    uni: "E233",
     tags: "#calendar, event, date, appointment, schedule"
   },
   {
@@ -545,6 +530,11 @@ window.iconsOriginal = [
     tags: "gear"
   },
   {
+    name: "television",
+    uni: "E26B",
+    tags: "tv, monitor"
+  },
+  {
     name: "store",
     uni: "E26C",
     tags: "storefront, business, local"
@@ -613,6 +603,16 @@ window.iconsOriginal = [
     name: "instagram",
     uni: "E294",
     tags: "social"
+  },
+  {
+    name: "geira_icon",
+    uni: "E29F",
+    tags: ""
+  },
+  {
+    name: "geira",
+    uni: "E2A0",
+    tags: ""
   },
   {
     name: "gitlab",

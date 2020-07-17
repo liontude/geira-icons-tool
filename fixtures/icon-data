@@ -1,16 +1,4 @@
-sub f a c e underscore i d by uniE004;
-  sub s e r v i c e s by uniE008;
-  sub j o b s by uniE015;
-  sub m a p underscore g o by uniE016;
-  sub m a p underscore a d d by uniE017;
-  sub s a t e l l i t e by uniE019;
-  sub m a p by uniE020;
-  sub s c r e e n underscore f u l l by uniE021;
-  sub s c r e e n by uniE022;
-  sub l o c a t i o n by uniE023;
-  sub c o m p a s s by uniE024;
 
-  sub d e l e t e by uniE026;
   sub t e s t by uniE027;
   sub p o s t s by uniE028;
   sub d o c s by uniE029;
@@ -22,31 +10,18 @@ sub f a c e underscore i d by uniE004;
   sub a u d i o by uniE038;
   sub a u d i o underscore m u t e by uniE039;
   sub g o o d by uniE040;
-  sub r a n d o m by uniE049;
-  sub n o underscore r a n d o m by uniE050;
+
   sub c h e c k e d by uniE053;
   sub c h e c k by uniE054;
   sub r a d i o underscore s e l e c t e d by uniE055;
   sub r a d i o by uniE056;
-  sub r e a d underscore d o w n by uniE057;
-  sub r e a d underscore u p by uniE058;
 
   sub t e x t underscore o u t by uniE065;
   sub t e x t underscore i n by uniE066;
 
-  sub i n f o by uniE069;
-  sub i n f o underscore l i n e by uniE070;
   sub c u p by uniE071;
   sub r a t e by uniE072;
 
-  sub t r i underscore l e f t underscore u p by uniE075;
-  sub t r i underscore r i g h t underscore u p by uniE076;
-  sub t r i underscore r i g h t underscore d o w n by uniE077;
-  sub t r i underscore l e f t underscore d o w n by uniE078;
-  sub t r i underscore u p by uniE079;
-  sub t r i underscore r i g h t by uniE080;
-  sub t r i underscore d o w n by uniE081;
-  sub t r i underscore l e f t by uniE082;
   sub p o l i t i c i a n by uniE083;
   sub s o u n d underscore w r i t e by uniE084;
   sub t e x t underscore s p e a k by uniE085;
@@ -56,9 +31,15 @@ sub f a c e underscore i d by uniE004;
   sub n o underscore a d s by uniE090;
   sub a w a r d by uniE091;
 
+  sub n o t i f i c a t i o n s by uniE000; #tags alert
+
+  sub w i f i by uniE004; #tags wireless, router
+  sub c h a t by uniE005; #tags sms, message
+
   sub s e n d by uniE00A; #tags sent
   sub p e r s o n by uniE00B; #tags user, account
   sub p e o p l e by uniE00C; #tags group
+  sub n o underscore s h o w by uniE00D; #tags person, hide, account, user
 
   sub r e f r e s h by uniE02C; #tags reset
   sub c h e v r o n underscore u p by uniE02D; #tags arrow, expand, keyboard, caret
@@ -69,6 +50,7 @@ sub f a c e underscore i d by uniE004;
   sub a r r o w underscore r i g h t by uniE03C; #tags chevron, forward, keyboard
   sub a r r o w underscore d o w n by uniE03D; #tags chevron, keyboard
   sub a r r o w underscore l e f t by uniE03E; #tags chevron, back, keyboard
+  sub d e l e t e by uniE03F; #tags remove
 
 
   sub l a u n c h by uniE0A5; #tags exit, open, dialog, modal
@@ -77,22 +59,43 @@ sub f a c e underscore i d by uniE004;
   sub m o r e underscore v e r t by uniE0A8; #tags menu
   sub m o r e underscore h o r i z by uniE0A9; #tags menu
 
+  sub c e l l underscore p h o n e by uniE0B8; #tags mobile, telephone, smart
   sub p h o n e by uniE0B9; #tags telephone
   sub h o m e by uniE0BA; #tags house
   sub l a n g u a g e by uniE0BB; #tags globe
   sub u r l by uniE0BC; #tags link
 
+  sub f l a g by uniE0CA; #tags report
   sub p l a c e by uniE0CA; #tags location, pin
   sub m a i l by uniE0CB; #tags email, envelope
 
-  sub g i f t by uniE0FB; #tags prize, redeem
+  sub p a y m e n t by uniE0F8; #tags credit, card, debit, money
+
+  sub d e a l by uniE0FA; #tags prize, redeem, promo, discount
+  sub g i f t by uniE0FB; #tags prize, redeem, promo, discount
   sub t i m e by uniE0FC; #tags clock, schedule, watch
+
+  sub f a c e underscore i d by uniE177; #tags fingerprint, identity, passcode
+
+  sub a r underscore h o r i z by uniE181; #tags aspect, radio
+  sub a r underscore v e r t by uniE182; #tags aspect, radio
+
+
+  sub p a r k i n g by uniE19F; #tags car, spot
+  sub b i k e by uniE1A0; #tags parking, pedal
+  sub w a l k by uniE1A1; #tags direction
+  sub g i r l by uniE1A2; #tags child, boy, girl, kid
+  sub b o y by uniE1A3; #tags child, boy, girl, kid
+  sub d i s a b l e d by uniE1A4; #tags incapable, helpless, handicapped, invalid, kept, hind
 
   sub v e r i f i e d by uniE1E1; #tags shield, security
   sub v e r i f i e d underscore u s e r by uniE1E2; #tags shield
   sub l o c k by uniE1E3; #tags padlock
   sub l o c k underscore o p e n by uniE1E4; #tags padlock
 
+  sub i n f o by uniE202; #tags help
+  sub h e l p by uniE203; #tags info
+  sub e r r o r by uniE204; #tags warning, alert
   sub v i s i b i l i t y by uniE205; #tags eye, show
   sub v i s i b i l i t y underscore o f f by uniE206; #tags eye, hide
   sub t h u m b underscore u p by uniE207; #tags like
@@ -107,6 +110,8 @@ sub f a c e underscore i d by uniE004;
   sub s t a r by uniE210; #tags rate
 
   sub e v e n t underscore a v a i l a b l e by uniE231; #calendar, event, date, appointment, schedule
+  sub u p c o m i n g by uniE232; #calendar, event, date, appointment, schedule
+  sub p a s t by uniE233; #calendar, event, date, appointment, schedule
 
   sub d a s h b o a r d by uniE23A;
   sub c a m p a i n g by uniE23B; #tags megaphone, bullhorn, mic, marketing
@@ -128,6 +133,7 @@ sub f a c e underscore i d by uniE004;
   sub e d i t by uniE25E; #tags create
   sub s e t t i n g s by uniE25F; #tags gear
 
+  sub t e l e v i s i o n by uniE26B; #tags tv, monitor
   sub s t o r e by uniE26C; #tags storefront, business, local
   sub d r i n k by uniE26D; #tags amenity, bar, wine
 
@@ -148,5 +154,7 @@ sub f a c e underscore i d by uniE004;
   sub i n s t a g r a m by uniE294; #tags social
 
 #logos
+  sub g e i r a underscore i c o n by uniE29F;
+  sub g e i r a by uniE2A0;
   sub g i t l a b by uniE2A1;
   sub n p m by uniE2A2;
