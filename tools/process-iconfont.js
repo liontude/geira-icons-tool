@@ -1,3 +1,4 @@
+const func = require('../src/js/utils').f1;
 const fs   = require('fs');
 const path = require('path');
 
@@ -37,14 +38,16 @@ let processed = iconData
     return {
       name: splittedLine[0],
       uni : splittedLine[1],
+      dec: func(splittedLine[1]),
       tags: splittedLine[2]
     };
   });
 
-let result = 'window.iconsOriginal = ' + JSON
+let result = 'exports.iconsOriginal = ' + JSON
   .stringify(processed, null, 2)
   .replace(/\"name\"/g, 'name')
   .replace(/\"uni\"/g, 'uni')
+  .replace(/\"dec\"/g, 'dec')
   .replace(/\"tags\"/g, 'tags')
   + ';';
 
