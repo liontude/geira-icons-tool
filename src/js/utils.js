@@ -1,10 +1,3 @@
-/*(function () {
-  console.log('Icons', window.iconsOriginal.length);
-})();*/
-
-
-///Make this functions available for script.js in order to remove duplicate functions
-
 String.fromCharCodeS = function () {
   var v = arguments.length;
   var w = "";
@@ -23,6 +16,7 @@ String.fromCharCodeS = function () {
   }
   return w
 };
+
 padLeft = function (u, t) {
   if (!t || u.length >= t) {
     return u
