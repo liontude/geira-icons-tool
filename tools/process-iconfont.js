@@ -43,7 +43,7 @@ let processed = iconData
     };
   });
 
-let result = 'exports.iconsOriginal = ' + JSON
+let result = 'window.iconsOriginal = ' + JSON
   .stringify(processed, null, 2)
   .replace(/\"name\"/g, 'name')
   .replace(/\"uni\"/g, 'uni')
