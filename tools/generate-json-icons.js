@@ -18,7 +18,7 @@ try {
 
   let iconsArray = JSON.parse(iconData);
   let map = new Map();
-  iconsArray.forEach(element => map[element.name] = element.dec)
+  iconsArray.forEach(element => map[element.name] = parseInt(element.dec))
 
   fs.writeFileSync(outputFilePath, JSON.stringify(map));
 }
