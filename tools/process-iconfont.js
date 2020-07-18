@@ -26,8 +26,9 @@ let iconData = fs
   .split('\n');
 
 let processed = iconData
-  .filter((line) => line.length > 0 && line.charAt(0) !== '#')
+  .filter((line) => line.trim().length > 0 && line.trim()[0] !== '#')
   .map((line) => {
+
     let splittedLine = line
       .replace(/\s/g, '')
       .replace(/,/g, ', ')
