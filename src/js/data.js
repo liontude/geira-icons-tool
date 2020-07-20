@@ -6,6 +6,12 @@ window.iconsOriginal = [
     tags: "alert"
   },
   {
+    name: "pencil",
+    uni: "E001",
+    dec: "57345",
+    tags: "edit, create"
+  },
+  {
     name: "wifi",
     uni: "E004",
     dec: "57348",
@@ -43,8 +49,8 @@ window.iconsOriginal = [
   },
   {
     name: "chart",
-    uni: "E02C",
-    dec: "57388",
+    uni: "E013",
+    dec: "57363",
     tags: "poll, analytics, bar"
   },
   {
@@ -153,6 +159,18 @@ window.iconsOriginal = [
     name: "close_menu",
     uni: "E0A2",
     dec: "57506",
+    tags: "text"
+  },
+  {
+    name: "down_menu",
+    uni: "E0A3",
+    dec: "57507",
+    tags: "text"
+  },
+  {
+    name: "up_menu",
+    uni: "E0A4",
+    dec: "57508",
     tags: "text"
   },
   {
@@ -300,6 +318,30 @@ window.iconsOriginal = [
     tags: "flip"
   },
   {
+    name: "chevron_tr",
+    uni: "E130",
+    dec: "57648",
+    tags: "arrow, expand, keyboard, caret"
+  },
+  {
+    name: "chevron_dr",
+    uni: "E131",
+    dec: "57649",
+    tags: "arrow, expand, keyboard, caret"
+  },
+  {
+    name: "chevron_dl",
+    uni: "E132",
+    dec: "57650",
+    tags: "arrow, expand, keyboard, caret"
+  },
+  {
+    name: "chevron_tl",
+    uni: "E133",
+    dec: "57651",
+    tags: "arrow, expand, keyboard, caret"
+  },
+  {
     name: "check",
     uni: "E134",
     dec: "57652",
@@ -324,16 +366,16 @@ window.iconsOriginal = [
     tags: "square, mark, check, box"
   },
   {
-    name: "rt_checked",
+    name: "rb_checked",
     uni: "E139",
     dec: "57657",
-    tags: "circle, mark, ratio, button"
+    tags: "circle, mark, radio, button"
   },
   {
-    name: "rt_unchecked",
+    name: "rb_unchecked",
     uni: "E13A",
     dec: "57658",
-    tags: "circle, mark, ratio, button"
+    tags: "circle, mark, radio, button"
   },
   {
     name: "face_id",
@@ -345,13 +387,13 @@ window.iconsOriginal = [
     name: "ar_horiz",
     uni: "E181",
     dec: "57729",
-    tags: "aspect, radio"
+    tags: "aspect, ratio"
   },
   {
     name: "ar_vert",
     uni: "E182",
     dec: "57730",
-    tags: "aspect, radio"
+    tags: "aspect, ratio"
   },
   {
     name: "parking",
@@ -537,13 +579,13 @@ window.iconsOriginal = [
     name: "dictation",
     uni: "E22F",
     dec: "57903",
-    tags: "voice, sound, write"
+    tags: "voice, sound, write, test"
   },
   {
-    name: "text_voice",
+    name: "oral",
     uni: "E230",
     dec: "57904",
-    tags: "record, speech, mic, oral"
+    tags: "record, speech, mic, oral, text, voice, test"
   },
   {
     name: "event_available",
@@ -645,7 +687,7 @@ window.iconsOriginal = [
     name: "edit",
     uni: "E25E",
     dec: "57950",
-    tags: "create"
+    tags: "create, pen"
   },
   {
     name: "settings",
