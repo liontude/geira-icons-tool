@@ -2,8 +2,9 @@ const func = require('../src/js/utils').f1;
 const fs   = require('fs');
 const path = require('path');
 
-let inputFilePath  = path.join(__dirname, '..', 'fixtures', 'icon-data');
-let outputFilePath = path.join(__dirname, '..', 'src', 'js', 'data.js');
+let inputFilePath      = path.join(__dirname, '..', 'fixtures', 'icon-data');
+let outputFilePath     = path.join(__dirname, '..', 'src', 'js', 'data.js');
+let outputJsonFilePath = path.join(__dirname, '..', 'src', 'js', 'icons.json');
 
 let iconData = fs
   .readFileSync(inputFilePath, {
@@ -38,17 +39,18 @@ let processed = iconData
     return {
       name: splittedLine[0],
       uni : splittedLine[1],
-      dec: func(splittedLine[1]),
+      dec : func(splittedLine[1]),
       tags: splittedLine[2]
     };
   });
 
-let result = 'window.iconsOriginal = ' + JSON
-  .stringify(processed, null, 2)
-  .replace(/\"name\"/g, 'name')
-  .replace(/\"uni\"/g, 'uni')
-  .replace(/\"dec\"/g, 'dec')
-  .replace(/\"tags\"/g, 'tags')
+let jsResult = 'window.iconsOriginal = '
+  + JSON.stringify(processed, null, 2)
+        .replace(/\"name\"/g, 'name')
+        .replace(/\"uni\"/g, 'uni')
+        .replace(/\"dec\"/g, 'dec')
+        .replace(/\"tags\"/g, 'tags')
   + ';';
 
-fs.writeFileSync(outputFilePath, result);
+fs.writeFileSync(outputFilePath, jsResult);
+fs.writeFileSync(outputJsonFilePath, JSON.stringify(processed, null, 2));
