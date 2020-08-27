@@ -10,7 +10,9 @@
     "start": "webpack-dev-server --mode development --open",
     "prepublish": "npm run process-iconfont && npm run build",
     "process-iconfont": "node tools/process-iconfont",
-    "generate-json": "node tools/generate-json-icons"
+    "generate-json": "node tools/generate-json-icons",
+    "generate-flutter": "node tools/generate-flutter",
+    "generate-flutter2": "node tools/generate-flutter2"
   },
   "keywords": [
     "geira",

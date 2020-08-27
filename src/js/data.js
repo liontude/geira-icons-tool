@@ -150,6 +150,12 @@ window.iconsOriginal = [
     tags: "voice, record, audio"
   },
   {
+    name: "recording",
+    uni: "E05E",
+    dec: "57438",
+    tags: "voice, record, audio"
+  },
+  {
     name: "open_menu",
     uni: "E0A1",
     dec: "57505",
