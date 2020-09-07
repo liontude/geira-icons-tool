@@ -156,28 +156,40 @@ window.iconsOriginal = [
     tags: "voice, record, audio"
   },
   {
+    name: "sidebar_close",
+    uni: "E09F",
+    dec: "57503",
+    tags: "menu"
+  },
+  {
+    name: "sidebar_open",
+    uni: "E0A0",
+    dec: "57504",
+    tags: "menu"
+  },
+  {
     name: "open_menu",
     uni: "E0A1",
     dec: "57505",
-    tags: "text"
+    tags: "text, menu"
   },
   {
     name: "close_menu",
     uni: "E0A2",
     dec: "57506",
-    tags: "text"
+    tags: "text, menu"
   },
   {
     name: "down_menu",
     uni: "E0A3",
     dec: "57507",
-    tags: "text"
+    tags: "text, menu"
   },
   {
     name: "up_menu",
     uni: "E0A4",
     dec: "57508",
-    tags: "text"
+    tags: "text, menu"
   },
   {
     name: "launch",
@@ -304,6 +316,42 @@ window.iconsOriginal = [
     uni: "E0FC",
     dec: "57596",
     tags: "clock, schedule, watch"
+  },
+  {
+    name: "folder",
+    uni: "E111",
+    dec: "57617",
+    tags: "doc, file"
+  },
+  {
+    name: "folder_open",
+    uni: "E112",
+    dec: "57618",
+    tags: "doc, file"
+  },
+  {
+    name: "folder_add",
+    uni: "E113",
+    dec: "57619",
+    tags: "doc, file"
+  },
+  {
+    name: "folder_special",
+    uni: "E114",
+    dec: "57620",
+    tags: "doc, file"
+  },
+  {
+    name: "folder_delete",
+    uni: "E115",
+    dec: "57621",
+    tags: "doc, file"
+  },
+  {
+    name: "page",
+    uni: "E117",
+    dec: "57623",
+    tags: "doc, file"
   },
   {
     name: "book",
@@ -627,13 +675,19 @@ window.iconsOriginal = [
     name: "push_pin",
     uni: "E244",
     dec: "57924",
-    tags: "magnifying, zoom"
+    tags: "pin"
   },
   {
     name: "search",
     uni: "E245",
     dec: "57925",
     tags: "magnifying, zoom"
+  },
+  {
+    name: "search_page",
+    uni: "E246",
+    dec: "57926",
+    tags: "magnifying, zoom, doc"
   },
   {
     name: "camera",
@@ -700,6 +754,12 @@ window.iconsOriginal = [
     uni: "E25F",
     dec: "57951",
     tags: "gear"
+  },
+  {
+    name: "save",
+    uni: "E260",
+    dec: "57952",
+    tags: "disk"
   },
   {
     name: "television",
