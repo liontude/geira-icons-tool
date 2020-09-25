@@ -156,6 +156,42 @@ window.iconsOriginal = [
     tags: "voice, record, audio"
   },
   {
+    name: "play_arrow",
+    uni: "E06D",
+    dec: "57453",
+    tags: "record, audio, player"
+  },
+  {
+    name: "pause",
+    uni: "E06E",
+    dec: "57454",
+    tags: "audio, player, stop"
+  },
+  {
+    name: "stop",
+    uni: "E06F",
+    dec: "57455",
+    tags: "audio, player"
+  },
+  {
+    name: "skip_next",
+    uni: "E07A",
+    dec: "57466",
+    tags: "audio, player, forward"
+  },
+  {
+    name: "skip_previous",
+    uni: "E07B",
+    dec: "57467",
+    tags: "audio, player, backward"
+  },
+  {
+    name: "record",
+    uni: "E07C",
+    dec: "57468",
+    tags: "audio, player, play"
+  },
+  {
     name: "sidebar_close",
     uni: "E09F",
     dec: "57503",
@@ -781,9 +817,21 @@ window.iconsOriginal = [
   },
   {
     name: "cashier",
+    uni: "E285",
+    dec: "57989",
+    tags: "pos, cash, register"
+  },
+  {
+    name: "full_dot",
+    uni: "E287",
+    dec: "57991",
+    tags: "circle"
+  },
+  {
+    name: "full_square",
     uni: "E288",
     dec: "57992",
-    tags: "pos, cash, register"
+    tags: ""
   },
   {
     name: "brightness_1",
