@@ -822,16 +822,16 @@
     "tags": "pos, cash, register"
   },
   {
-    "name": "full_dot",
+    "name": "full_square",
     "uni": "E287",
     "dec": "57991",
-    "tags": "circle"
+    "tags": ""
   },
   {
-    "name": "full_square",
+    "name": "full_dot",
     "uni": "E288",
     "dec": "57992",
-    "tags": ""
+    "tags": "circle"
   },
   {
     "name": "brightness_1",
