@@ -1,6 +1,6 @@
 {
   "name": "@geira/iconfont",
-  "version": "0.0.24",
+  "version": "0.1.0",
   "description": "Geira Icon Font",
   "main": "dist/geira-icons.min.css",
   "scripts": {
@@ -40,7 +40,7 @@
       "email": "jose31309@gmail.com"
     }
   ],
-  "homepage": "http://icons.geira.com",
+  "homepage": "https://icons.geira.com",
   "bugs": "https://gitlab.com/liontude/geira/iconfont/issues",
   "repository": {
     "type": "git",

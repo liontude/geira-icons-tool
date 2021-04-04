@@ -4,7 +4,7 @@ Custom icon font for the Geira Appointments System.
 
 ## Demo
 
-You can see the icons via the live demo at http://icons.geira.com.
+You can see the icons via the live demo at https://icons.geira.com.
 
 ## Installation
 
@@ -42,7 +42,7 @@ Import the provided SCSS file in your main SCSS file, ex: `styles.scss`:
 
        npm run build
        
-     b) or start the dev server:
+    b) or start the dev server:
      
        npm run start
 

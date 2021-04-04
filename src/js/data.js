@@ -63,49 +63,49 @@ window.iconsOriginal = [
     name: "chevron_up",
     uni: "E02D",
     dec: "57389",
-    tags: "arrow, expand, keyboard, caret"
+    tags: "arrow, expand, keyboard, caret, navigate"
   },
   {
     name: "chevron_right",
     uni: "E02E",
     dec: "57390",
-    tags: "arrow, forward, keyboard, navigate, caret"
+    tags: "arrow, forward, keyboard, navigate, caret, navigate"
   },
   {
     name: "chevron_down",
     uni: "E02F",
     dec: "57391",
-    tags: "arrow, expand, keyboard, caret"
+    tags: "arrow, expand, keyboard, caret, navigate"
   },
   {
     name: "chevron_left",
     uni: "E03A",
     dec: "57402",
-    tags: "arrow, back, keyboard, navigate, caret"
+    tags: "arrow, back, keyboard, navigate, caret, navigate"
   },
   {
     name: "arrow_up",
     uni: "E03B",
     dec: "57403",
-    tags: "chevron, keyboard"
+    tags: "chevron, keyboard, navigate"
   },
   {
     name: "arrow_right",
     uni: "E03C",
     dec: "57404",
-    tags: "chevron, forward, keyboard"
+    tags: "chevron, forward, keyboard, navigate"
   },
   {
     name: "arrow_down",
     uni: "E03D",
     dec: "57405",
-    tags: "chevron, keyboard"
+    tags: "chevron, keyboard, navigate"
   },
   {
     name: "arrow_left",
     uni: "E03E",
     dec: "57406",
-    tags: "chevron, back, keyboard"
+    tags: "chevron, back, keyboard, navigate"
   },
   {
     name: "delete",
@@ -190,6 +190,24 @@ window.iconsOriginal = [
     uni: "E07C",
     dec: "57468",
     tags: "audio, player, play"
+  },
+  {
+    name: "previous",
+    uni: "E08C",
+    dec: "57484",
+    tags: "arrow, caret, chevron, skip, navigate"
+  },
+  {
+    name: "next",
+    uni: "E08D",
+    dec: "57485",
+    tags: "arrow, caret, chevron, skip, navigate"
+  },
+  {
+    name: "list",
+    uni: "E09E",
+    dec: "57502",
+    tags: "menu"
   },
   {
     name: "sidebar_close",
@@ -279,13 +297,25 @@ window.iconsOriginal = [
     name: "language",
     uni: "E0BB",
     dec: "57531",
-    tags: "globe"
+    tags: "globe, translate"
   },
   {
     name: "url",
     uni: "E0BC",
     dec: "57532",
     tags: "link"
+  },
+  {
+    name: "lang",
+    uni: "E0BD",
+    dec: "57533",
+    tags: "language, translate"
+  },
+  {
+    name: "lang_help",
+    uni: "E0BE",
+    dec: "57534",
+    tags: "language, translate, help, support, aid"
   },
   {
     name: "map",
@@ -702,7 +732,7 @@ window.iconsOriginal = [
     tags: ""
   },
   {
-    name: "campaing",
+    name: "campaign",
     uni: "E23B",
     dec: "57915",
     tags: "megaphone, bullhorn, mic, marketing"
@@ -898,18 +928,6 @@ window.iconsOriginal = [
     uni: "E294",
     dec: "58004",
     tags: "social"
-  },
-  {
-    name: "geira_icon",
-    uni: "E29F",
-    dec: "58015",
-    tags: ""
-  },
-  {
-    name: "geira",
-    uni: "E2A0",
-    dec: "58016",
-    tags: ""
   },
   {
     name: "gitlab",
