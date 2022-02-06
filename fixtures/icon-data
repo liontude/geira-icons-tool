@@ -1,5 +1,7 @@
+# Latin
+
   sub n o t i f i c a t i o n s by uniE000; #tags alert
-  sub p e n c i l by uniE001; #tags edit, create,
+  sub p e n c i l by uniE001; #tags edit, create
 
   sub w i f i by uniE004; #tags wireless, router
   sub c h a t by uniE005; #tags sms, message
@@ -11,30 +13,48 @@
 
   sub c h a r t by uniE013; #tags poll, analytics, bar
 
-  sub r e f r e s h by uniE02C; #tags reset
-  sub c h e v r o n underscore u p by uniE02D; #tags arrow, expand, keyboard, caret
-  sub c h e v r o n underscore r i g h t by uniE02E; #tags arrow, forward, keyboard, navigate, caret
-  sub c h e v r o n underscore d o w n by uniE02F; #tags arrow, expand, keyboard, caret
-  sub c h e v r o n underscore l e f t by uniE03A; #tags arrow, back, keyboard, navigate, caret
-  sub a r r o w underscore u p by uniE03B; #tags chevron, keyboard
-  sub a r r o w underscore r i g h t by uniE03C; #tags chevron, forward, keyboard
-  sub a r r o w underscore d o w n by uniE03D; #tags chevron, keyboard
-  sub a r r o w underscore l e f t by uniE03E; #tags chevron, back, keyboard
+  sub u p d a t e by uniE02B; #tags reset, refresh
+  sub r e f r e s h by uniE02C; #tags reset, refresh, update
+  sub c h e v r o n underscore u p by uniE02D; #tags arrow, expand, keyboard, caret, navigate
+  sub c h e v r o n underscore r i g h t by uniE02E; #tags arrow, forward, keyboard, navigate, caret, navigate
+  sub c h e v r o n underscore d o w n by uniE02F; #tags arrow, expand, keyboard, caret, navigate
+  sub c h e v r o n underscore l e f t by uniE03A; #tags arrow, back, keyboard, navigate, caret, navigate
+  sub a r r o w underscore u p by uniE03B; #tags chevron, keyboard, navigate
+  sub a r r o w underscore r i g h t by uniE03C; #tags chevron, forward, keyboard, navigate
+  sub a r r o w underscore d o w n by uniE03D; #tags chevron, keyboard, navigate
+  sub a r r o w underscore l e f t by uniE03E; #tags chevron, back, keyboard, navigate
   sub d e l e t e by uniE03F; #tags remove
 
-  sub v o l u m e by uniE04C; #tags sound, speaker
-
-  sub v o l u m e underscore u p by uniE04F; #tags sound, speaker
+  sub v o l u m e by uniE04C; #tags sound, speaker, audio
+  sub v o l u m e underscore l o w by uniE04D; #tags sound, speaker, audio
+  sub v o l u m e underscore m e d i u m by uniE04E; #tags sound, speaker, audio
+  sub v o l u m e underscore u p by uniE04F; #tags sound, speaker, audio
   sub v o l u m e underscore o f f by uniE05A; #tags sound, speaker, mute
-  sub h e a r i n g by uniE05B; #tags sound, listening
+  sub h e a r i n g by uniE05B; #tags sound, listening, audio
   sub m i c by uniE05C; #tags voice, record, audio
   sub m i c underscore o f f by uniE05D; #tags voice, record, audio
   sub r e c o r d i n g by uniE05E; #tags voice, record, audio
+  sub n o underscore a u d i o by uniE05F; #tags sound, speaker, mute
+  sub r e f r e s h underscore a u d i o by uniE06A; #tags sound, speaker, volume, refresh, load
+  sub l o a d underscore a u d i o by uniE06B; #tags sound, speaker, volume
 
-  sub o p e n underscore m e n u by uniE0A1; #tags text
-  sub c l o s e underscore m e n u by uniE0A2; #tags text
-  sub d o w n underscore m e n u by uniE0A3; #tags text
-  sub u p underscore m e n u by uniE0A4; #tags text
+  sub p l a y underscore a r r o w by uniE06D; #tags record, audio, player
+  sub p a u s e by uniE06E; #tags audio, player, stop
+  sub s t o p by uniE06F; #tags audio, player
+  sub s k i p underscore n e x t by uniE07A; #tags audio, player, forward
+  sub s k i p underscore p r e v i o u s by uniE07B; #tags audio, player, backward
+  sub r e c o r d by uniE07C; #tags audio, player, play
+
+  sub p r e v i o u s by uniE08C; #tags arrow, caret, chevron, skip, navigate
+  sub n e x t by uniE08D; #tags arrow, caret, chevron, skip, navigate
+
+  sub l i s t by uniE09E; #tags menu
+  sub s i d e b a r underscore c l o s e by uniE09F; #tags menu
+  sub s i d e b a r underscore o p e n by uniE0A0; #tags menu
+  sub o p e n underscore m e n u by uniE0A1; #tags text, menu
+  sub c l o s e underscore m e n u by uniE0A2; #tags text, menu
+  sub d o w n underscore m e n u by uniE0A3; #tags text, menu
+  sub u p underscore m e n u by uniE0A4; #tags text, menu
   sub l a u n c h by uniE0A5; #tags exit, open, dialog, modal
   sub e x i t underscore t o underscore a p p by uniE0A6;
   sub m e n u by uniE0A7; #tags hamburger
@@ -44,8 +64,10 @@
   sub c e l l underscore p h o n e by uniE0B8; #tags mobile, telephone, smart
   sub p h o n e by uniE0B9; #tags telephone
   sub h o m e by uniE0BA; #tags house
-  sub l a n g u a g e by uniE0BB; #tags globe
+  sub l a n g u a g e by uniE0BB; #tags globe, translate
   sub u r l by uniE0BC; #tags link
+  sub l a n g by uniE0BD; #tags language, translate
+  sub l a n g underscore h e l p by uniE0BE; #tags language, translate, help, support, aid
 
   sub m a p by uniE0BF; #tags place, location, pin
 
@@ -65,6 +87,13 @@
   sub g i f t by uniE0FB; #tags prize, redeem, promo, discount
   sub t i m e by uniE0FC; #tags clock, schedule, watch
 
+  sub f o l d e r by uniE111; #tags doc, file
+  sub f o l d e r underscore o p e n by uniE112; #tags doc, file
+  sub f o l d e r underscore a d d by uniE113; #tags doc, file
+  sub f o l d e r underscore s p e c i a l by uniE114; #tags doc, file
+  sub f o l d e r underscore d e l e t e by uniE115; #tags doc, file
+
+  sub p a g e by uniE117; #tags doc, file
   sub b o o k by uniE118; #tags study, docs, menu
   sub t e s t by uniE119; #tags study, exam, quiz
   sub f l a s h underscore c a r d s by uniE11A; #tags flip
@@ -129,10 +158,11 @@
   sub p a s t by uniE233; #tags calendar, event, date, appointment, schedule
 
   sub d a s h b o a r d by uniE23A;
-  sub c a m p a i n g by uniE23B; #tags megaphone, bullhorn, mic, marketing
+  sub c a m p a i g n by uniE23B; #tags megaphone, bullhorn, mic, marketing
 
-  sub p u s h underscore p i n by uniE244; #tags magnifying, zoom
+  sub p u s h underscore p i n by uniE244; #tags pin
   sub s e a r c h by uniE245; #tags magnifying, zoom
+  sub s e a r c h underscore p a g e by uniE246; #tags magnifying, zoom, doc
 
   sub c a m e r a by uniE254; #tags photo
 
@@ -147,12 +177,16 @@
   sub f i l t e r by uniE25D; #tags sort
   sub e d i t by uniE25E; #tags create, pen
   sub s e t t i n g s by uniE25F; #tags gear
+  sub s a v e by uniE260; #tags disk
 
   sub t e l e v i s i o n by uniE26B; #tags tv, monitor
   sub s t o r e by uniE26C; #tags storefront, business, local
   sub d r i n k by uniE26D; #tags amenity, bar, wine
 
-  sub c a s h i e r by uniE288; #tags pos, cash, register
+  sub c a s h i e r by uniE285; #tags pos, cash, register
+
+  sub f u l l underscore s q u a r e by uniE287;
+  sub f u l l underscore d o t by uniE288; #tags circle
   sub b r i g h t n e s s underscore one by uniE289;
   sub b r i g h t n e s s underscore two by uniE28A;
   sub b r i g h t n e s s underscore three by uniE28B;
@@ -161,18 +195,17 @@
   sub b r i g h t n e s s underscore six by uniE28E;
   sub b r i g h t n e s s underscore seven by uniE28F;
 
-#social
 
+#social
   sub f a c e b o o k by uniE291; #tags social
   sub t w i t t e r by uniE292; #tags social
   sub y o u t u b e by uniE293; #tags social
   sub i n s t a g r a m by uniE294; #tags social
 
 #logos
-  sub g e i r a underscore i c o n by uniE29F;
-  sub g e i r a by uniE2A0;
   sub g i t l a b by uniE2A1;
   sub n p m by uniE2A2;
   sub a p p l e underscore l o g o by uniE2A3;
   sub f a c e b o o k underscore l o g o by uniE2A4;
   sub g o o g l e underscore l o g o by uniE2A5;
+

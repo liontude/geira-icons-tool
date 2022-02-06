@@ -54,10 +54,16 @@ window.iconsOriginal = [
     tags: "poll, analytics, bar"
   },
   {
+    name: "update",
+    uni: "E02B",
+    dec: "57387",
+    tags: "reset, refresh"
+  },
+  {
     name: "refresh",
     uni: "E02C",
     dec: "57388",
-    tags: "reset"
+    tags: "reset, refresh, update"
   },
   {
     name: "chevron_up",
@@ -117,13 +123,25 @@ window.iconsOriginal = [
     name: "volume",
     uni: "E04C",
     dec: "57420",
-    tags: "sound, speaker"
+    tags: "sound, speaker, audio"
+  },
+  {
+    name: "volume_low",
+    uni: "E04D",
+    dec: "57421",
+    tags: "sound, speaker, audio"
+  },
+  {
+    name: "volume_medium",
+    uni: "E04E",
+    dec: "57422",
+    tags: "sound, speaker, audio"
   },
   {
     name: "volume_up",
     uni: "E04F",
     dec: "57423",
-    tags: "sound, speaker"
+    tags: "sound, speaker, audio"
   },
   {
     name: "volume_off",
@@ -135,7 +153,7 @@ window.iconsOriginal = [
     name: "hearing",
     uni: "E05B",
     dec: "57435",
-    tags: "sound, listening"
+    tags: "sound, listening, audio"
   },
   {
     name: "mic",
@@ -154,6 +172,24 @@ window.iconsOriginal = [
     uni: "E05E",
     dec: "57438",
     tags: "voice, record, audio"
+  },
+  {
+    name: "no_audio",
+    uni: "E05F",
+    dec: "57439",
+    tags: "sound, speaker, mute"
+  },
+  {
+    name: "refresh_audio",
+    uni: "E06A",
+    dec: "57450",
+    tags: "sound, speaker, volume, refresh, load"
+  },
+  {
+    name: "load_audio",
+    uni: "E06B",
+    dec: "57451",
+    tags: "sound, speaker, volume"
   },
   {
     name: "play_arrow",
