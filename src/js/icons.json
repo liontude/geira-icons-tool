@@ -48,10 +48,28 @@
     "tags": "person, hide, account, user"
   },
   {
+    "name": "person_status",
+    "uni": "E00E",
+    "dec": "57358",
+    "tags": "account, user"
+  },
+  {
     "name": "chart",
     "uni": "E013",
     "dec": "57363",
     "tags": "poll, analytics, bar"
+  },
+  {
+    "name": "restore",
+    "uni": "E01F",
+    "dec": "57375",
+    "tags": "reset, refresh, back, undo"
+  },
+  {
+    "name": "undo",
+    "uni": "E02A",
+    "dec": "57386",
+    "tags": "reset, refresh, back, restore"
   },
   {
     "name": "update",
@@ -240,6 +258,30 @@
     "tags": "arrow, caret, chevron, skip, navigate"
   },
   {
+    "name": "cloud",
+    "uni": "E097",
+    "dec": "57495",
+    "tags": "weather"
+  },
+  {
+    "name": "upload",
+    "uni": "E098",
+    "dec": "57496",
+    "tags": "arrow, up, cloud, up"
+  },
+  {
+    "name": "download",
+    "uni": "E09A",
+    "dec": "57498",
+    "tags": "arrow, down, bottom"
+  },
+  {
+    "name": "rearrange",
+    "uni": "E09B",
+    "dec": "57499",
+    "tags": "arrow, reorder, sort"
+  },
+  {
     "name": "list",
     "uni": "E09E",
     "dec": "57502",
@@ -345,7 +387,7 @@
     "name": "lang",
     "uni": "E0BD",
     "dec": "57533",
-    "tags": "language, translate"
+    "tags": "language, translate, globe"
   },
   {
     "name": "lang_help",
@@ -358,6 +400,12 @@
     "uni": "E0BF",
     "dec": "57535",
     "tags": "place, location, pin"
+  },
+  {
+    "name": "country",
+    "uni": "E0C0",
+    "dec": "57536",
+    "tags": "place, location, flag, globe"
   },
   {
     "name": "flag",
@@ -396,10 +444,22 @@
     "tags": "checkout"
   },
   {
+    "name": "add_balance",
+    "uni": "E0F7",
+    "dec": "57591",
+    "tags": "credit, card, debit, money, cash"
+  },
+  {
     "name": "payment",
     "uni": "E0F8",
     "dec": "57592",
-    "tags": "credit, card, debit, money"
+    "tags": "credit, card, debit, money, cash"
+  },
+  {
+    "name": "bill",
+    "uni": "E0F9",
+    "dec": "57593",
+    "tags": "credit, card, debit, money, cash"
   },
   {
     "name": "deal",
@@ -453,7 +513,7 @@
     "name": "page",
     "uni": "E117",
     "dec": "57623",
-    "tags": "doc, file"
+    "tags": "doc, file, "
   },
   {
     "name": "book",
@@ -465,13 +525,37 @@
     "name": "test",
     "uni": "E119",
     "dec": "57625",
-    "tags": "study, exam, quiz"
+    "tags": "study, exam, quiz, page, doc, file, ok"
   },
   {
     "name": "flash_cards",
     "uni": "E11A",
     "dec": "57626",
-    "tags": "flip"
+    "tags": "flip, page, doc"
+  },
+  {
+    "name": "pdf",
+    "uni": "E124",
+    "dec": "57636",
+    "tags": "page, doc, file"
+  },
+  {
+    "name": "doc",
+    "uni": "E125",
+    "dec": "57637",
+    "tags": "page, doc, file"
+  },
+  {
+    "name": "jpg",
+    "uni": "E126",
+    "dec": "57638",
+    "tags": "page, doc, file"
+  },
+  {
+    "name": "png",
+    "uni": "E127",
+    "dec": "57639",
+    "tags": "page, doc, file"
   },
   {
     "name": "chevron_tr",
@@ -586,6 +670,12 @@
     "uni": "E1A4",
     "dec": "57764",
     "tags": "incapable, helpless, handicapped, invalid, kept, hind"
+  },
+  {
+    "name": "photo_id",
+    "uni": "E1A5",
+    "dec": "57765",
+    "tags": "id, badge, passport"
   },
   {
     "name": "politician",
@@ -732,6 +822,12 @@
     "tags": "review, start, comment, thumb"
   },
   {
+    "name": "ticket",
+    "uni": "E212",
+    "dec": "57874",
+    "tags": "voucher, pass"
+  },
+  {
     "name": "dictation",
     "uni": "E22F",
     "dec": "57903",
@@ -762,6 +858,18 @@
     "tags": "calendar, event, date, appointment, schedule"
   },
   {
+    "name": "event",
+    "uni": "E234",
+    "dec": "57908",
+    "tags": "calendar, date, appointment, schedule"
+  },
+  {
+    "name": "no_event",
+    "uni": "E235",
+    "dec": "57909",
+    "tags": "calendar, date, appointment, schedule"
+  },
+  {
     "name": "dashboard",
     "uni": "E23A",
     "dec": "57914",
@@ -790,6 +898,12 @@
     "uni": "E246",
     "dec": "57926",
     "tags": "magnifying, zoom, doc"
+  },
+  {
+    "name": "search_person",
+    "uni": "E247",
+    "dec": "57927",
+    "tags": "magnifying, zoom, account, user"
   },
   {
     "name": "camera",
@@ -862,6 +976,18 @@
     "uni": "E260",
     "dec": "57952",
     "tags": "disk"
+  },
+  {
+    "name": "add_square",
+    "uni": "E262",
+    "dec": "57954",
+    "tags": "plus"
+  },
+  {
+    "name": "remove_square",
+    "uni": "E263",
+    "dec": "57955",
+    "tags": "minus"
   },
   {
     "name": "television",
@@ -945,54 +1071,72 @@
     "name": "facebook",
     "uni": "E291",
     "dec": "58001",
-    "tags": "social"
+    "tags": "social, logo"
   },
   {
     "name": "twitter",
     "uni": "E292",
     "dec": "58002",
-    "tags": "social"
+    "tags": "social, logo"
   },
   {
     "name": "youtube",
     "uni": "E293",
     "dec": "58003",
-    "tags": "social"
+    "tags": "social, logo"
   },
   {
     "name": "instagram",
     "uni": "E294",
     "dec": "58004",
-    "tags": "social"
+    "tags": "social, logo"
+  },
+  {
+    "name": "linkedin",
+    "uni": "E295",
+    "dec": "58005",
+    "tags": "social, logo"
+  },
+  {
+    "name": "github",
+    "uni": "E2A0",
+    "dec": "58016",
+    "tags": "logo"
   },
   {
     "name": "gitlab",
     "uni": "E2A1",
     "dec": "58017",
-    "tags": ""
+    "tags": "logo"
   },
   {
     "name": "npm",
     "uni": "E2A2",
     "dec": "58018",
-    "tags": ""
+    "tags": "logo"
   },
   {
     "name": "apple_logo",
     "uni": "E2A3",
     "dec": "58019",
-    "tags": ""
+    "tags": "logo"
   },
   {
     "name": "facebook_logo",
     "uni": "E2A4",
     "dec": "58020",
-    "tags": ""
+    "tags": "logo"
   },
   {
     "name": "google_logo",
     "uni": "E2A5",
     "dec": "58021",
-    "tags": ""
+    "tags": "logo"
+  },
+  {
+    "name": "whatsapp_logo",
+    "uni": "E2A6",
+    "dec": "58022",
+    "tags": "logo"
   }
 ]
