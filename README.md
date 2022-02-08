@@ -1,6 +1,6 @@
 # Geira Icon Font
 
-Custom icon font for the Geira Appointments System.
+If you like these icons and need one that isn't included, please create an issue on GitHub and we'll add it for you shortly.
 
 ## Demo
 
