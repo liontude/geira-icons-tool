@@ -6,7 +6,8 @@
 fixtures/icon-data
 src/js/flutter.txt
 src/js/flutter2.txt
-
+tools/generate-flutter.js
+tools/generate-flutter2.js
 
 .idea
 # *.iml

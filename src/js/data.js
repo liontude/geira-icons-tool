@@ -3,13 +3,19 @@ window.iconsOriginal = [
     name: "notifications",
     uni: "E000",
     dec: "57344",
-    tags: "alert"
+    tags: "alert, bell, alarm"
   },
   {
     name: "pencil",
     uni: "E001",
     dec: "57345",
     tags: "edit, create"
+  },
+  {
+    name: "brush",
+    uni: "E002",
+    dec: "57346",
+    tags: "create, art, paint"
   },
   {
     name: "wifi",
@@ -22,6 +28,18 @@ window.iconsOriginal = [
     uni: "E005",
     dec: "57349",
     tags: "sms, message"
+  },
+  {
+    name: "notifications_off",
+    uni: "E008",
+    dec: "57352",
+    tags: "alert, bell, alarm"
+  },
+  {
+    name: "notifications_active",
+    uni: "E009",
+    dec: "57353",
+    tags: "alert, bell, alarm"
   },
   {
     name: "send",
@@ -280,6 +298,12 @@ window.iconsOriginal = [
     uni: "E09B",
     dec: "57499",
     tags: "arrow, reorder, sort"
+  },
+  {
+    name: "tune",
+    uni: "E09D",
+    dec: "57501",
+    tags: "slider, sort, filter, options"
   },
   {
     name: "list",
@@ -870,6 +894,12 @@ window.iconsOriginal = [
     tags: "calendar, date, appointment, schedule"
   },
   {
+    name: "month",
+    uni: "E236",
+    dec: "57910",
+    tags: "calendar, date, appointment, schedule"
+  },
+  {
     name: "dashboard",
     uni: "E23A",
     dec: "57914",
@@ -879,7 +909,7 @@ window.iconsOriginal = [
     name: "campaign",
     uni: "E23B",
     dec: "57915",
-    tags: "megaphone, bullhorn, mic, marketing"
+    tags: "megaphone, bullhorn, mic, marketing, announcement, speaker"
   },
   {
     name: "push_pin",
@@ -910,6 +940,12 @@ window.iconsOriginal = [
     uni: "E254",
     dec: "57940",
     tags: "photo"
+  },
+  {
+    name: "no_image",
+    uni: "E255",
+    dec: "57941",
+    tags: "collections, photos, gallery, media, image"
   },
   {
     name: "images",
@@ -1138,5 +1174,11 @@ window.iconsOriginal = [
     uni: "E2A6",
     dec: "58022",
     tags: "logo"
+  },
+  {
+    name: "logo",
+    uni: "E2AF",
+    dec: "58031",
+    tags: "logo, create, art, font"
   }
 ];

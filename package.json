@@ -1,6 +1,6 @@
 {
   "name": "@geira/iconfont",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Geira Icon Font",
   "main": "dist/geira-icons.min.css",
   "scripts": {
