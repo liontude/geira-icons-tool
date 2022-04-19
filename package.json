@@ -8,7 +8,7 @@
     "build": "webpack",
     "prestart": "npm run process-iconfont",
     "start": "webpack-dev-server --mode development --open",
-    "prepublish": "npm run process-iconfont && npm run build",
+    "prepare": "npm run process-iconfont && npm run build",
     "process-iconfont": "node tools/process-iconfont",
     "generate-json": "node tools/generate-json-icons",
     "generate-flutter": "node tools/generate-flutter",
