@@ -12,6 +12,12 @@ window.iconsOriginal = [
     tags: "edit, create"
   },
   {
+    name: "brush",
+    uni: "E002",
+    dec: "57346",
+    tags: "create, art, paint"
+  },
+  {
     name: "wifi",
     uni: "E004",
     dec: "57348",
@@ -22,6 +28,18 @@ window.iconsOriginal = [
     uni: "E005",
     dec: "57349",
     tags: "sms, message"
+  },
+  {
+    name: "notifications_off",
+    uni: "E008",
+    dec: "57352",
+    tags: "alert, bell, alarm"
+  },
+  {
+    name: "notifications_active",
+    uni: "E009",
+    dec: "57353",
+    tags: "alert, bell, alarm"
   },
   {
     name: "send",
@@ -48,10 +66,28 @@ window.iconsOriginal = [
     tags: "person, hide, account, user"
   },
   {
+    name: "person_status",
+    uni: "E00E",
+    dec: "57358",
+    tags: "account, user, person"
+  },
+  {
     name: "chart",
     uni: "E013",
     dec: "57363",
     tags: "poll, analytics, bar"
+  },
+  {
+    name: "restore",
+    uni: "E01F",
+    dec: "57375",
+    tags: "reset, refresh, back, undo"
+  },
+  {
+    name: "undo",
+    uni: "E02A",
+    dec: "57386",
+    tags: "reset, refresh, back, restore"
   },
   {
     name: "update",
@@ -240,6 +276,36 @@ window.iconsOriginal = [
     tags: "arrow, caret, chevron, skip, navigate"
   },
   {
+    name: "cloud",
+    uni: "E097",
+    dec: "57495",
+    tags: "weather"
+  },
+  {
+    name: "upload",
+    uni: "E098",
+    dec: "57496",
+    tags: "arrow, up, cloud, up"
+  },
+  {
+    name: "up_balls",
+    uni: "E099",
+    dec: "57497",
+    tags: "arrow, up, "
+  },
+  {
+    name: "download",
+    uni: "E09A",
+    dec: "57498",
+    tags: "arrow, down, bottom"
+  },
+  {
+    name: "rearrange",
+    uni: "E09B",
+    dec: "57499",
+    tags: "arrow, reorder, sort"
+  },
+  {
     name: "list",
     uni: "E09E",
     dec: "57502",
@@ -360,6 +426,12 @@ window.iconsOriginal = [
     tags: "place, location, pin"
   },
   {
+    name: "country",
+    uni: "E0C0",
+    dec: "57536",
+    tags: "place, location, flag, globe"
+  },
+  {
     name: "flag",
     uni: "E0C9",
     dec: "57545",
@@ -396,10 +468,28 @@ window.iconsOriginal = [
     tags: "checkout"
   },
   {
+    name: "bet",
+    uni: "E0F6",
+    dec: "57590",
+    tags: "credit, card, debit, money, cash, casino, game"
+  },
+  {
+    name: "add_balance",
+    uni: "E0F7",
+    dec: "57591",
+    tags: "credit, card, debit, money, cash"
+  },
+  {
     name: "payment",
     uni: "E0F8",
     dec: "57592",
-    tags: "credit, card, debit, money"
+    tags: "credit, card, debit, money, cash"
+  },
+  {
+    name: "bill",
+    uni: "E0F9",
+    dec: "57593",
+    tags: "credit, card, debit, money, cash"
   },
   {
     name: "deal",
@@ -418,6 +508,18 @@ window.iconsOriginal = [
     uni: "E0FC",
     dec: "57596",
     tags: "clock, schedule, watch"
+  },
+  {
+    name: "chronometer",
+    uni: "E0FD",
+    dec: "57597",
+    tags: "clock, schedule, watch, stopwatch"
+  },
+  {
+    name: "time_record",
+    uni: "E0FE",
+    dec: "57598",
+    tags: "chronometer, clock, schedule, watch, stopwatch"
   },
   {
     name: "folder",
@@ -472,6 +574,30 @@ window.iconsOriginal = [
     uni: "E11A",
     dec: "57626",
     tags: "flip"
+  },
+  {
+    name: "pdf",
+    uni: "E124",
+    dec: "57636",
+    tags: "page, doc, file"
+  },
+  {
+    name: "doc",
+    uni: "E125",
+    dec: "57637",
+    tags: "page, doc, file"
+  },
+  {
+    name: "jpg",
+    uni: "E126",
+    dec: "57638",
+    tags: "page, doc, file, image"
+  },
+  {
+    name: "png",
+    uni: "E127",
+    dec: "57639",
+    tags: "page, doc, file, image"
   },
   {
     name: "chevron_tr",
@@ -588,10 +714,28 @@ window.iconsOriginal = [
     tags: "incapable, helpless, handicapped, invalid, kept, hind"
   },
   {
+    name: "photo_id",
+    uni: "E1A5",
+    dec: "57765",
+    tags: "id, badge, passport"
+  },
+  {
     name: "politician",
     uni: "E1CC",
     dec: "57804",
     tags: "speech, president"
+  },
+  {
+    name: "bull",
+    uni: "E1CD",
+    dec: "57805",
+    tags: "cow"
+  },
+  {
+    name: "cow",
+    uni: "E1CE",
+    dec: "57806",
+    tags: "bull"
   },
   {
     name: "verified",
@@ -621,13 +765,19 @@ window.iconsOriginal = [
     name: "advertising",
     uni: "E1FA",
     dec: "57850",
-    tags: "ads, publicity"
+    tags: "ads, publicity, campaign"
   },
   {
     name: "no_advertising",
     uni: "E1FB",
     dec: "57851",
-    tags: "ads, publicity"
+    tags: "ads, publicity, campaign"
+  },
+  {
+    name: "video",
+    uni: "E1FC",
+    dec: "57852",
+    tags: "ads, publicity, campaign"
   },
   {
     name: "question_answer",
@@ -732,6 +882,30 @@ window.iconsOriginal = [
     tags: "review, start, comment, thumb"
   },
   {
+    name: "ticket",
+    uni: "E212",
+    dec: "57874",
+    tags: "voucher, pass"
+  },
+  {
+    name: "game",
+    uni: "E213",
+    dec: "57875",
+    tags: "play, console"
+  },
+  {
+    name: "sad_face",
+    uni: "E22E",
+    dec: "57902",
+    tags: "emoji"
+  },
+  {
+    name: "happy_face",
+    uni: "E22E",
+    dec: "57902",
+    tags: "emoji"
+  },
+  {
     name: "dictation",
     uni: "E22F",
     dec: "57903",
@@ -762,16 +936,34 @@ window.iconsOriginal = [
     tags: "calendar, event, date, appointment, schedule"
   },
   {
+    name: "event",
+    uni: "E234",
+    dec: "57908",
+    tags: "calendar, date, appointment, schedule, today"
+  },
+  {
+    name: "no_event",
+    uni: "E235",
+    dec: "57909",
+    tags: "calendar, date, appointment, schedule"
+  },
+  {
+    name: "month",
+    uni: "E236",
+    dec: "57910",
+    tags: "calendar, event, date, appointment, schedule"
+  },
+  {
     name: "dashboard",
     uni: "E23A",
     dec: "57914",
-    tags: ""
+    tags: "home, main"
   },
   {
     name: "campaign",
     uni: "E23B",
     dec: "57915",
-    tags: "megaphone, bullhorn, mic, marketing"
+    tags: "megaphone, bullhorn, mic, marketing, ads, publicity"
   },
   {
     name: "push_pin",
@@ -792,10 +984,22 @@ window.iconsOriginal = [
     tags: "magnifying, zoom, doc"
   },
   {
+    name: "search_person",
+    uni: "E247",
+    dec: "57927",
+    tags: "magnifying, zoom, account, user"
+  },
+  {
     name: "camera",
     uni: "E254",
     dec: "57940",
     tags: "photo"
+  },
+  {
+    name: "no_image",
+    uni: "E255",
+    dec: "57941",
+    tags: "collections, photos, gallery, media, image"
   },
   {
     name: "images",
@@ -864,6 +1068,18 @@ window.iconsOriginal = [
     tags: "disk"
   },
   {
+    name: "add_square",
+    uni: "E262",
+    dec: "57954",
+    tags: "plus"
+  },
+  {
+    name: "remove_square",
+    uni: "E263",
+    dec: "57955",
+    tags: "minus"
+  },
+  {
     name: "television",
     uni: "E26B",
     dec: "57963",
@@ -882,10 +1098,34 @@ window.iconsOriginal = [
     tags: "amenity, bar, wine"
   },
   {
+    name: "bulb_on",
+    uni: "E27A",
+    dec: "57978",
+    tags: "light, idea, think"
+  },
+  {
+    name: "bulb",
+    uni: "E27B",
+    dec: "57979",
+    tags: "light, idea, think"
+  },
+  {
     name: "cashier",
+    uni: "E27C",
+    dec: "57980",
+    tags: "pos, cash, register"
+  },
+  {
+    name: "afternoon",
     uni: "E285",
     dec: "57989",
-    tags: "pos, cash, register"
+    tags: "sun, noon"
+  },
+  {
+    name: "evening",
+    uni: "E286",
+    dec: "57990",
+    tags: "evening, moom, night, dark, light"
   },
   {
     name: "full_square",
@@ -939,7 +1179,7 @@ window.iconsOriginal = [
     name: "brightness_7",
     uni: "E28F",
     dec: "57999",
-    tags: ""
+    tags: "light, sun, dark"
   },
   {
     name: "facebook",
@@ -966,33 +1206,57 @@ window.iconsOriginal = [
     tags: "social"
   },
   {
+    name: "linkedin",
+    uni: "E295",
+    dec: "58005",
+    tags: "social"
+  },
+  {
+    name: "github",
+    uni: "E2A0",
+    dec: "58016",
+    tags: "logo"
+  },
+  {
     name: "gitlab",
     uni: "E2A1",
     dec: "58017",
-    tags: ""
+    tags: "logo"
   },
   {
     name: "npm",
     uni: "E2A2",
     dec: "58018",
-    tags: ""
+    tags: "logo"
   },
   {
     name: "apple_logo",
     uni: "E2A3",
     dec: "58019",
-    tags: ""
+    tags: "logo"
   },
   {
     name: "facebook_logo",
     uni: "E2A4",
     dec: "58020",
-    tags: ""
+    tags: "logo"
   },
   {
     name: "google_logo",
     uni: "E2A5",
     dec: "58021",
-    tags: ""
+    tags: "logo"
+  },
+  {
+    name: "whatsapp_logo",
+    uni: "E2A6",
+    dec: "58022",
+    tags: "logo"
+  },
+  {
+    name: "logo",
+    uni: "E2AF",
+    dec: "58031",
+    tags: "logo, create, art, font"
   }
 ];
