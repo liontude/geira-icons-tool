@@ -894,6 +894,18 @@ window.iconsOriginal = [
     tags: "play, console"
   },
   {
+    name: "lotto",
+    uni: "E214",
+    dec: "57876",
+    tags: "luck, bingo, casino, gaming, lottery"
+  },
+  {
+    name: "cabala",
+    uni: "E215",
+    dec: "57877",
+    tags: "eye, luck, dream, god"
+  },
+  {
     name: "sad_face",
     uni: "E22E",
     dec: "57902",
