@@ -306,6 +306,12 @@ window.iconsOriginal = [
     tags: "arrow, reorder, sort"
   },
   {
+    name: "slider",
+    uni: "E09D",
+    dec: "57501",
+    tags: "sort, filter, setting"
+  },
+  {
     name: "list",
     uni: "E09E",
     dec: "57502",
@@ -660,6 +666,42 @@ window.iconsOriginal = [
     tags: "circle, mark, radio, button"
   },
   {
+    name: "hot",
+    uni: "E165",
+    dec: "57701",
+    tags: "fire, warm"
+  },
+  {
+    name: "cold",
+    uni: "E166",
+    dec: "57702",
+    tags: "ice, cold, frozen"
+  },
+  {
+    name: "hot_cold",
+    uni: "E167",
+    dec: "57703",
+    tags: "fire, warm, fire, warm"
+  },
+  {
+    name: "delta",
+    uni: "E168",
+    dec: "57704",
+    tags: "sign"
+  },
+  {
+    name: "delta_cold",
+    uni: "E169",
+    dec: "57705",
+    tags: "sign, ice, cold, frozen"
+  },
+  {
+    name: "delta_hot",
+    uni: "E16A",
+    dec: "57706",
+    tags: "sign, fire, warm"
+  },
+  {
     name: "face_id",
     uni: "E177",
     dec: "57719",
@@ -907,8 +949,8 @@ window.iconsOriginal = [
   },
   {
     name: "sad_face",
-    uni: "E22E",
-    dec: "57902",
+    uni: "E22D",
+    dec: "57901",
     tags: "emoji"
   },
   {
