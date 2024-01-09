@@ -948,6 +948,12 @@
     "tags": "eye, luck, dream, god"
   },
   {
+    "name": "clover",
+    "uni": "E216",
+    "dec": "57878",
+    "tags": "luck, dream, lotto, lottery"
+  },
+  {
     "name": "sad_face",
     "uni": "E22D",
     "dec": "57901",
@@ -1042,6 +1048,12 @@
     "uni": "E247",
     "dec": "57927",
     "tags": "magnifying, zoom, account, user"
+  },
+  {
+    "name": "search_number",
+    "uni": "E248",
+    "dec": "57928",
+    "tags": "magnifying, zoom"
   },
   {
     "name": "camera",
