@@ -1,13 +1,13 @@
 {
   "name": "@geira/iconfont",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "description": "Geira Icon Font",
   "main": "dist/geira-icons.min.css",
   "scripts": {
     "prebuild": "npm run process-iconfont",
     "build": "NODE_OPTIONS=--openssl-legacy-provider webpack",
     "prestart": "npm run process-iconfont",
-    "start": "node --openssl-legacy-provider ./node_modules/.bin/webpack-dev-server --mode development --open",    
+    "start": "node --openssl-legacy-provider ./node_modules/.bin/webpack-dev-server --mode development --open",
     "prepare": "npm run process-iconfont && npm run build",
     "process-iconfont": "node tools/process-iconfont",
     "generate-json": "node tools/generate-json-icons",

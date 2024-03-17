@@ -435,7 +435,19 @@ window.iconsOriginal = [
     name: "country",
     uni: "E0C0",
     dec: "57536",
-    tags: "place, location, flag, globe"
+    tags: "place, location, flag, globe, gps"
+  },
+  {
+    name: "navigation",
+    uni: "E0C1",
+    dec: "57537",
+    tags: "place, location, compass, gps"
+  },
+  {
+    name: "notification",
+    uni: "E0C8",
+    dec: "57544",
+    tags: "push, mobile, phone"
   },
   {
     name: "flag",
@@ -702,10 +714,40 @@ window.iconsOriginal = [
     tags: "sign, fire, warm"
   },
   {
+    name: "sum",
+    uni: "E16B",
+    dec: "57707",
+    tags: "plus, add"
+  },
+  {
+    name: "sum_hot",
+    uni: "E16C",
+    dec: "57708",
+    tags: "plus, add, fire, warm"
+  },
+  {
+    name: "sum_cold",
+    uni: "E16D",
+    dec: "57709",
+    tags: "plus, add, ice, cold, frozen"
+  },
+  {
     name: "face_id",
     uni: "E177",
     dec: "57719",
     tags: "fingerprint, identity, passcode"
+  },
+  {
+    name: "scan",
+    uni: "E17F",
+    dec: "57727",
+    tags: "barcode, qr"
+  },
+  {
+    name: "retry_scan",
+    uni: "E180",
+    dec: "57728",
+    tags: "barcode, qr"
   },
   {
     name: "ar_horiz",
@@ -948,6 +990,12 @@ window.iconsOriginal = [
     tags: "eye, luck, dream, god"
   },
   {
+    name: "clover",
+    uni: "E216",
+    dec: "57878",
+    tags: "luck, dream, lotto, lottery"
+  },
+  {
     name: "sad_face",
     uni: "E22D",
     dec: "57901",
@@ -1020,10 +1068,16 @@ window.iconsOriginal = [
     tags: "megaphone, bullhorn, mic, marketing, ads, publicity"
   },
   {
+    name: "unpin",
+    uni: "E243",
+    dec: "57923",
+    tags: "pin, locate"
+  },
+  {
     name: "push_pin",
     uni: "E244",
     dec: "57924",
-    tags: "pin"
+    tags: "pin, locate"
   },
   {
     name: "search",
@@ -1042,6 +1096,12 @@ window.iconsOriginal = [
     uni: "E247",
     dec: "57927",
     tags: "magnifying, zoom, account, user"
+  },
+  {
+    name: "search_number",
+    uni: "E248",
+    dec: "57928",
+    tags: "magnifying, zoom"
   },
   {
     name: "camera",
@@ -1077,13 +1137,13 @@ window.iconsOriginal = [
     name: "add",
     uni: "E259",
     dec: "57945",
-    tags: "plus"
+    tags: "plus, sum"
   },
   {
     name: "add_circle",
     uni: "E25A",
     dec: "57946",
-    tags: "plus"
+    tags: "plus, sum"
   },
   {
     name: "close",
