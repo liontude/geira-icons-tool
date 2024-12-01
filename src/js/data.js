@@ -1,9 +1,9 @@
 window.iconsOriginal = [
   {
-    name: "notifications",
+    name: "none",
     uni: "E000",
     dec: "57344",
-    tags: "alert"
+    tags: "clear, empty, blank"
   },
   {
     name: "pencil",
@@ -28,6 +28,12 @@ window.iconsOriginal = [
     uni: "E005",
     dec: "57349",
     tags: "sms, message"
+  },
+  {
+    name: "notifications",
+    uni: "E007",
+    dec: "57351",
+    tags: "alert"
   },
   {
     name: "notifications_off",
@@ -678,6 +684,12 @@ window.iconsOriginal = [
     tags: "circle, mark, radio, button"
   },
   {
+    name: "odd_even",
+    uni: "E164",
+    dec: "57700",
+    tags: "fire, warm"
+  },
+  {
     name: "hot",
     uni: "E165",
     dec: "57701",
@@ -1212,10 +1224,16 @@ window.iconsOriginal = [
     tags: "amenity, bar, wine"
   },
   {
+    name: "bulb_number",
+    uni: "E279",
+    dec: "57977",
+    tags: "hint, light, idea, think"
+  },
+  {
     name: "bulb_on",
     uni: "E27A",
     dec: "57978",
-    tags: "light, idea, think"
+    tags: "light, idea, hint, think"
   },
   {
     name: "bulb",

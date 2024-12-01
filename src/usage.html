@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Geira Icons</title>
@@ -11,357 +12,365 @@
   <meta name="msapplication-TileColor" content="#2b5797">
   <meta name="theme-color" content="#ffffff">
 </head>
+
 <body>
-<div class="main">
-  <header>
-    <h1>Geira Icons <a href="https://badge.fury.io/js/%40geira%2Ficonfont"><img src="https://badge.fury.io/js/%40geira%2Ficonfont.svg" alt="npm version" height="18"></a></h1>
+  <div class="main">
+    <header>
+      <h1>Geira Icons <a href="https://badge.fury.io/js/%40geira%2Ficonfont"><img
+            src="https://badge.fury.io/js/%40geira%2Ficonfont.svg" alt="npm version" height="18"></a></h1>
 
-    <ul>
-      <li><a href="index.html">Icons</a></li>
-      <li class="active"><a href="usage.html">Usage</a></li>
-    </ul>
+      <ul>
+        <li><a href="index.html">Icons</a></li>
+        <li class="active"><a href="usage.html">Usage</a></li>
+      </ul>
 
-    <ul class="logos">
-      <li><a href="https://www.npmjs.com/package/@geira/iconfont" target="_blank"><i class="geira-icons">npm</i></a></li>
-      <li><a href="https://github.com/liontude/geira-icons-tool" target="_blank"><i class="geira-icons">github</i></a></li>
-    </ul>
-  </header>
-  <div class="container center" style="width: 95%; max-width: 800px; align-self: center">
+      <ul class="logos">
+        <li><a href="https://www.npmjs.com/package/@geira/iconfont" target="_blank"><i class="geira-icons">npm</i></a>
+        </li>
+        <li><a href="https://github.com/liontude/geira-icons-tool" target="_blank"><i class="geira-icons">github</i></a>
+        </li>
+      </ul>
+    </header>
+    <div class="container center" style="width: 95%; max-width: 800px; align-self: center">
 
 
-    <!-- npm installation -->
+      <!-- npm installation -->
 
-    <h2 class="title-h2">NPM installation</h2>
-    <div class="block row" style="place-content: center">
-      <div class="icons-code">
-        <code>
+      <h2 class="title-h2">NPM installation</h2>
+      <div class="block row" style="place-content: center">
+        <div class="icons-code">
+          <code>
           npm install --save @geira/iconfont
         </code>
+        </div>
       </div>
-    </div>
 
-    <h4>Link to CSS</h4>
-    <p>Add the following tag inside the html &lt;head&gt; tag</p>
-    <div class="block row" style="place-content: center">
-      <div class="icons-code">
-        <code>
+      <h4>Link to CSS</h4>
+      <p>Add the following tag inside the html &lt;head&gt; tag</p>
+      <div class="block row" style="place-content: center">
+        <div class="icons-code">
+          <code>
           &lt;link href="node_components/@geira/iconfont/dist/geira-icons.min.css" rel="stylesheet"&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <h4>or import into SCSS</h4>
-    <p>Import the provided SCSS file in your main SCSS file, ex: styles.scss</p>
-    <div class="block row" style="place-content: center">
-      <div class="icons-code">
-        <code>
+      <h4>or import into SCSS</h4>
+      <p>Import the provided SCSS file in your main SCSS file, ex: styles.scss</p>
+      <div class="block row" style="place-content: center">
+        <div class="icons-code">
+          <code>
           @import '~@geira/iconfont/dist/geira-icons.scss';
         </code>
+        </div>
       </div>
-    </div>
 
-    <!-- /npm installation -->
+      <!-- /npm installation -->
 
-    <h4>Like Material Icon with Angular</h4>
-    <p>Geira Icons are similar to Material Icons. If you want to use them with or instead of Material Icons, click the link <a href="https://material.angular.io/components/icon/overview" target="_blank">https://material.angular.io/components/icon/overview</a></p>
+      <h4>Like Material Icon with Angular</h4>
+      <p>Geira Icons are similar to Material Icons. If you want to use them with or instead of Material Icons, click the
+        link <a href="https://material.angular.io/components/icon/overview"
+          target="_blank">https://material.angular.io/components/icon/overview</a></p>
 
-    <h2 style="margin-top: 50px">Standard installation</h2>
+      <h2 style="margin-top: 50px">Standard installation</h2>
 
-    <h4>Link to CSS</h4>
-    <p>Add the following tag inside the html &lt;head&gt; tag</p>
-    <div class="block row" style="place-content: center">
-      <div class="icons-code">
-        <code>
+      <h4>Link to CSS</h4>
+      <p>Add the following tag inside the html &lt;head&gt; tag</p>
+      <div class="block row" style="place-content: center">
+        <div class="icons-code">
+          <code>
           &lt;link href="./geira-icons.min.css" rel="stylesheet"&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <p>In CSS (geira-icons.min.css) be sure that the path to the icons (fonts) is correct</p>
-    <div class="block row" style="place-content: center">
-      <div class="icons-code">
-        <code>
+      <p>In CSS (geira-icons.min.css) be sure that the path to the icons (fonts) is correct</p>
+      <div class="block row" style="place-content: center">
+        <div class="icons-code">
+          <code>
           src : url(./fonts/GeiraIcons-Regular.eot);<br>
           url(./fonts/GeiraIcons-Regular.woff2) format('woff2'),<br>
           url(./fonts/GeiraIcons-Regular.woff) format('woff'),<br>
           url(./fonts/GeiraIcons-Regular.ttf) format('truetype');
         </code>
+        </div>
       </div>
-    </div>
 
-    <h2 style="margin-top: 50px">Usage</h2>
+      <h2 style="margin-top: 50px">Usage</h2>
 
-    <h4>Via html</h4>
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <h4>Via html</h4>
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <p style="margin-top: 30px">Ex. "home" icon unicode is "\E0BA"</p>
-    <p style="margin-bottom: 10px">Change "<strong>\</strong>E0BA" to
-      "<strong>&amp;#x</strong>E0BA<strong>;</strong>"</p>
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons">&#xE0BA;</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <p style="margin-top: 30px">Ex. "home" icon unicode is "\E0BA"</p>
+      <p style="margin-bottom: 10px">Change "<strong>\</strong>E0BA" to
+        "<strong>&amp;#x</strong>E0BA<strong>;</strong>"</p>
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons">&#xE0BA;</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons"&gt;&amp;#xE0BA;&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <h4>Via CSS</h4>
+      <h4>Via CSS</h4>
 
-    <div class="block row" style="place-content: center">
-      <div class="icons-code">
-        <code style="padding: 20px; text-align: center">
+      <div class="block row" style="place-content: center">
+        <div class="icons-code">
+          <code style="padding: 20px; text-align: center">
           .some-class::before {
           content: "\E0BA";
           }
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons some-class"></i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons some-class"></i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons some-class"&gt;&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <h3 style="margin-top: 50px">Styling</h3>
-    <h5>Size</h5>
+      <h3 style="margin-top: 50px">Styling</h3>
+      <h5>Size</h5>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-18">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-18">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-18"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-24">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-24">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-24"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-36">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-36">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-36"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-48">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-48">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-48"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <!-- COLOR -->
-    <h5>Color</h5>
+      <!-- COLOR -->
+      <h5>Color</h5>
 
-    <div class="block row">
-      <div class="icons-preview" style="background-color: #263238">
-        <i class="geira-icons gi-light">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview" style="background-color: #263238">
+          <i class="geira-icons gi-light">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-light"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview" style="background-color: #263238">
-        <i class="geira-icons gi-light gi-inactive">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview" style="background-color: #263238">
+          <i class="geira-icons gi-light gi-inactive">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-light gi-inactive"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-dark">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-dark">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-light"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-dark gi-inactive">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-dark gi-inactive">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-light gi-inactive"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <!-- /COLOR -->
+      <!-- /COLOR -->
 
-    <!-- ROTATE -->
+      <!-- ROTATE -->
 
-    <h5>Rotate</h5>
+      <h5>Rotate</h5>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-rotate-45">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-rotate-45">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-rotate-45"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-rotate-90">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-rotate-90">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-rotate-90"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-rotate-135">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-rotate-135">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-rotate-135"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-rotate-180">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-rotate-180">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-rotate-180"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-rotate-225">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-rotate-225">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-rotate-225"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-rotate-270">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-rotate-270">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-rotate-270"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-rotate-315">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-rotate-315">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-rotate-315"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <!-- /ROTATE -->
+      <!-- /ROTATE -->
 
-    <h5>Flip</h5>
+      <h5>Flip</h5>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-flip-v">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-flip-v">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-flip-v"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-flip-h">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-flip-h">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-flip-h"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
-    </div>
 
-    <h5>Spin</h5>
+      <h5>Spin</h5>
 
-    <div class="block row">
-      <div class="icons-preview">
-        <i class="geira-icons gi-spin">home</i>
-      </div>
-      <div class="icons-code">
-        <code>&lt;i
+      <div class="block row">
+        <div class="icons-preview">
+          <i class="geira-icons gi-spin">home</i>
+        </div>
+        <div class="icons-code">
+          <code>&lt;i
           class="geira-icons gi-spin"&gt;home&lt;/i&gt;
         </code>
+        </div>
       </div>
     </div>
-  </div>
 
-  <footer>
-    <p>&copy;2024 <a style="color: inherit; text-decoration: none;" href="https://liontude.com" target="_blank">Liontude</a>. All Rights Reserved. Released under MIT License</p>
-  </footer>
-</div>
+    <footer>
+      <p>&copy;2025 <a style="color: inherit; text-decoration: none;" href="https://liontude.com"
+          target="_blank">Liontude</a>. All Rights Reserved. Released under MIT License</p>
+    </footer>
+  </div>
 
 
 </body>
+
 </html>

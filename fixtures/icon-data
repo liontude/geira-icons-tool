@@ -1,10 +1,11 @@
-sub n o t i f i c a t i o n s by uniE000; #tags alert
+sub n o n e by uniE000; #tags clear, empty, blank
 sub p e n c i l by uniE001; #tags edit, create
 sub b r u s h by uniE002; #tags create, art, paint
 
 sub w i f i by uniE004; #tags wireless, router
 sub c h a t by uniE005; #tags sms, message
 
+sub n o t i f i c a t i o n s by uniE007; #tags alert
 sub n o t i f i c a t i o n s underscore o f f by uniE008; #tags alert, bell, alarm
 sub n o t i f i c a t i o n s underscore a c t i v e by uniE009; #tags alert, bell, alarm
 sub s e n d by uniE00A; #tags sent
@@ -133,6 +134,7 @@ sub u n c h e c k e d by uniE137; #tags square, mark, check, box
 sub r b underscore c h e c k e d by uniE139; #tags circle, mark, radio, button
 sub r b underscore u n c h e c k e d by uniE13A; #tags circle, mark, radio, button
 
+sub o d d underscore e v e n by uniE164; #tags fire, warm
 sub h o t by uniE165; #tags fire, warm
 sub c o l d by uniE166; #tags ice, cold, frozen
 sub h o t underscore c o l d by uniE167; #tags fire, warm, fire, warm
@@ -238,7 +240,8 @@ sub t e l e v i s i o n by uniE26B; #tags tv, monitor
 sub s t o r e by uniE26C; #tags storefront, business, local
 sub d r i n k by uniE26D; #tags amenity, bar, wine
 
-sub b u l b underscore o n by uniE27A; #tags light, idea, think 
+sub b u l b underscore n u m b e r by uniE279; #tags hint, light, idea, think
+sub b u l b underscore o n by uniE27A; #tags light, idea, hint, think 
 sub b u l b by uniE27B; #tags light, idea, think
 sub c a s h i e r by uniE27C; #tags pos, cash, register
 
