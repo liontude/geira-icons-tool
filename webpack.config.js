@@ -1,48 +1,50 @@
 const path = require('path');
 
-const HtmlWebpackPlugin    = require('html-webpack-plugin');
-const {CleanWebpackPlugin} = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const CopyWebpackPlugin    = require('copy-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = () => {
   return {
-    mode     : 'production',
-    entry    : {
-      data         : './src/js/data.js',
-      main         : './src/js/script.js',
-      utils        : './src/js/utils.js',
+    mode: 'production',
+    entry: {
+      data: './src/js/data.js',
+      main: './src/js/script.js',
+      utils: './src/js/utils.js',
       'geira-icons': './src/scss/geira-icons.scss',
-      styles       : './src/scss/styles.scss'
+      styles: './src/scss/styles.scss'
     },
-    output   : {
+    output: {
       filename: '[name].min.js',
-      path    : path.resolve(__dirname, 'dist')
+      path: path.resolve(__dirname, 'dist')
     },
-    devtool  : 'source-map',
-    resolve  : {
+    devtool: 'source-map',
+    resolve: {
       extensions: ['.js']
     },
     devServer: {
-      contentBase: './dist'
+      static: {
+        directory: path.join(__dirname, 'dist')
+      }
     },
-    plugins  : [
+    plugins: [
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
         filename: 'index.html',
         template: 'src/index.html',
-        chunks  : ['data', 'main', 'geira-icons', 'styles']
+        chunks: ['data', 'main', 'geira-icons', 'styles']
       }),
       new HtmlWebpackPlugin({
         filename: 'usage.html',
         template: 'src/usage.html',
-        chunks  : ['data', 'utils', 'geira-icons', 'styles']
+        chunks: ['data', 'utils', 'geira-icons', 'styles']
       }),
       new CopyWebpackPlugin({
         patterns: [
           {
             from: './src/fonts',
-            to  : './fonts'
+            to: './fonts'
           }
         ]
       }),
@@ -50,7 +52,7 @@ module.exports = () => {
         patterns: [
           {
             from: './src/scss/geira-icons.scss',
-            to  : './'
+            to: './'
           }
         ]
       }),
@@ -58,7 +60,7 @@ module.exports = () => {
         patterns: [
           {
             from: './src/js/icons.json',
-            to  : './'
+            to: './'
           }
         ]
       }),
@@ -66,23 +68,23 @@ module.exports = () => {
         patterns: [
           {
             from: './src/images',
-            to  : './images'
+            to: './images'
           }
         ]
       }),
       new MiniCssExtractPlugin({
-        filename     : '[name].min.css',
+        filename: '[name].min.css',
         chunkFilename: '[id].css'
       })
     ],
-    module   : {
+    module: {
       rules: [
         {
           test: /\.s[ac]ss$/i,
-          use : [
+          use: [
             MiniCssExtractPlugin.loader,
             {
-              loader : 'css-loader',
+              loader: 'css-loader',
               options: {
                 url: false
               }

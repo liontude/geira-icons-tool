@@ -1,26 +1,44 @@
 {
   "name": "@geira/iconfont",
-  "version": "0.2.12",
+  "version": "0.3.0",
   "description": "Geira Icon Font",
   "main": "dist/geira-icons.min.css",
   "scripts": {
-    "prebuild": "npm run process-iconfont",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider webpack",
-    "prestart": "npm run process-iconfont",
-    "start": "node --openssl-legacy-provider ./node_modules/.bin/webpack-dev-server --mode development --open",
-    "prepare": "npm run process-iconfont && npm run build",
+    "clean": "rm -rf dist",
     "process-iconfont": "node tools/process-iconfont",
+    "generate-assets": "npm run generate-json && npm run generate-flutter && npm run generate-flutter2",
     "generate-json": "node tools/generate-json-icons",
     "generate-flutter": "node tools/generate-flutter",
-    "generate-flutter2": "node tools/generate-flutter2"
+    "generate-flutter2": "node tools/generate-flutter2",
+    "build-web": "NODE_OPTIONS=--openssl-legacy-provider webpack",
+    "start": "webpack serve --mode development --open",
+    "dev": "npm run process-iconfont && npm run generate-assets && npm run start",
+    "build": "npm run clean && npm run process-iconfont && npm run generate-assets && npm run build-web",
+    "deploy": "npm run build && rsync -av dist/ user@host:/path/to/hosting",
+    "prepare": "npm run build"
+  },
+  "scripts-info": {
+    "clean": "Removes the 'dist' folder to ensure a clean build.",
+    "process-iconfont": "Processes the icon font files and generates base assets.",
+    "generate-assets": "Runs all asset generation scripts for mobile (JSON, Flutter, Flutter2).",
+    "generate-json": "Generates the JSON file for icon metadata.",
+    "generate-flutter": "Generates Flutter-compatible icon files.",
+    "generate-flutter2": "Generates an additional set of Flutter icon files.",
+    "build-web": "Compiles the web showcase using Webpack.",
+    "start": "Starts the development server with live reload.",
+    "dev": "Runs the icon processing, asset generation, and starts the dev server.",
+    "build": "Performs a full clean build (icons, assets, and web).",
+    "deploy": "Builds the project and deploys it to the hosting server (adjust path/user).",
+    "prepare": "Automatically triggers before publishing the package (npm)."
   },
   "keywords": [
     "geira",
-    "icon",
-    "font",
-    "sass",
-    "scss",
-    "css"
+    "icon-font",
+    "web-icons",
+    "scss-icons",
+    "css-icons",
+    "frontend",
+    "icon-pack"
   ],
   "license": "MIT",
   "publishConfig": {
@@ -41,22 +59,24 @@
     }
   ],
   "homepage": "https://icons.geira.com",
-  "bugs": "https://github.com/liontude/geira-icons-tool/issues",
+  "bugs": {
+    "url": "https://github.com/liontude/geira-icons-tool/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/liontude/geira-icons-tool"
   },
   "devDependencies": {
-    "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "^6.0.3",
-    "css-loader": "^3.6.0",
-    "html-webpack-plugin": "^4.3.0",
-    "mini-css-extract-plugin": "^0.9.0",
-    "sass": "^1.26.10",
-    "sass-loader": "^9.0.2",
-    "style-loader": "^1.2.1",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.84.0",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
   }
 }
