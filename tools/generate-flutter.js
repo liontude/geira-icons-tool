@@ -21,9 +21,9 @@ try {
 
   // static const IconData abjadArabic = const _MdiIconData(0xf1328);
 
-  iconsArray.forEach(element => ficons += `static const IconData ${element.name} = const _GIconData(0x${element.uni});\n`)
+  iconsArray.forEach(element => ficons += `static const IconData ${element.name} = _GIconData(0x${element.uni});\n`)
 
-  fs.writeFileSync(outputFilePath, ficons.replace(',',''));
+  fs.writeFileSync(outputFilePath, ficons.replace(',', ''));
 }
 catch (e) {
   console.log(`Ups, unable to parse data.js: ${e}`);
