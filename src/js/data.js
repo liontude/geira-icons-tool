@@ -684,6 +684,18 @@ window.iconsOriginal = [
     tags: "circle, mark, radio, button"
   },
   {
+    name: "match",
+    uni: "E13B",
+    dec: "57659",
+    tags: "correspond, align, fit, check"
+  },
+  {
+    name: "temperature",
+    uni: "E163",
+    dec: "57699",
+    tags: "thermometer, hot, warm, cold, heat"
+  },
+  {
     name: "odd_even",
     uni: "E164",
     dec: "57700",
@@ -1206,6 +1218,24 @@ window.iconsOriginal = [
     tags: "minus"
   },
   {
+    name: "more_less",
+    uni: "E264",
+    dec: "57956",
+    tags: "approximately, roughly, plus, sum, minus"
+  },
+  {
+    name: "total",
+    uni: "E265",
+    dec: "57957",
+    tags: "amount, sum"
+  },
+  {
+    name: "number",
+    uni: "E266",
+    dec: "57958",
+    tags: "hashtag"
+  },
+  {
     name: "television",
     uni: "E26B",
     dec: "57963",
@@ -1384,6 +1414,12 @@ window.iconsOriginal = [
     uni: "E2A6",
     dec: "58022",
     tags: "logo"
+  },
+  {
+    name: "x_logo",
+    uni: "E2A7",
+    dec: "58023",
+    tags: "logo, twitter"
   },
   {
     name: "logo",
