@@ -16,6 +16,8 @@ sub p e r s o n underscore s t a t u s by uniE00E; #tags account, user, person
 
 sub c h a r t by uniE013; #tags poll, analytics, bar
 
+sub s h u f f l e by uniE01E; #tags random, sort
+
 sub r e s t o r e by uniE01F; #tags reset, refresh, back, undo
 sub u n d o by uniE02A; #tags reset, refresh, back, restore
 sub u p d a t e by uniE02B; #tags reset, refresh
@@ -104,18 +106,27 @@ sub d e a l by uniE0FA; #tags prize, redeem, promo, discount
 sub g i f t by uniE0FB; #tags prize, redeem, promo, discount
 sub t i m e by uniE0FC; #tags clock, schedule, watch
 sub c h r o n o m e t e r by uniE0FD; #tags clock, schedule, watch, stopwatch
+
 sub t i m e underscore r e c o r d by uniE0FE; #tags chronometer, clock, schedule, watch, stopwatch
+
+sub h o u r g l a s s by uniE100; #tags clock, schedule, watch, time
+
+sub v r underscore m o b i l e by uniE108; #tags phone, talk, interview
 
 sub f o l d e r by uniE111; #tags doc, file
 sub f o l d e r underscore o p e n by uniE112; #tags doc, file
 sub f o l d e r underscore a d d by uniE113; #tags doc, file
 sub f o l d e r underscore s p e c i a l by uniE114; #tags doc, file
 sub f o l d e r underscore d e l e t e by uniE115; #tags doc, file
+sub f o l d e r underscore s e c u r e by uniE116; #tags doc, file
 
 sub p a g e by uniE117; #tags doc, file
 sub b o o k by uniE118; #tags study, docs, menu
 sub t e s t by uniE119; #tags study, exam, quiz
 sub f l a s h underscore c a r d s by uniE11A; #tags flip
+sub t e s t underscore r e p e a t by uniE11B; #tags study, exam, quiz
+sub t e s t underscore s t a r by uniE11C; #tags study, exam, quiz
+sub t e s t underscore d a i l y by uniE11D; #tags study, exam, quiz, calendar
 
 sub p d f by uniE124; #tags page, doc, file
 sub d o c by uniE125; #tags page, doc, file
@@ -133,7 +144,9 @@ sub u n c h e c k e d by uniE137; #tags square, mark, check, box
 
 sub r b underscore c h e c k e d by uniE139; #tags circle, mark, radio, button
 sub r b underscore u n c h e c k e d by uniE13A; #tags circle, mark, radio, button
+sub m a t c h by uniE13B; #tags correspond, align, fit, check
 
+sub t e m p e r a t u r e by uniE163; #tags thermometer, hot, warm, cold, heat
 sub o d d underscore e v e n by uniE164; #tags fire, warm
 sub h o t by uniE165; #tags fire, warm
 sub c o l d by uniE166; #tags ice, cold, frozen
@@ -173,6 +186,7 @@ sub a d v e r t i s i n g by uniE1FA; #tags ads, publicity, campaign
 sub n o underscore a d v e r t i s i n g by uniE1FB; #tags ads, publicity, campaign
 sub v i d e o by uniE1FC; #tags ads, publicity, campaign
 
+sub a l e r t by uniE200; #tags warning, error
 sub q u e s t i o n underscore a n s w e r by uniE201; #tags faqs, help, info
 sub i n f o by uniE202; #tags help
 sub h e l p by uniE203; #tags info
@@ -195,6 +209,8 @@ sub g a m e by uniE213; #tags play, console
 sub l o t t o by uniE214; #tags luck, bingo, casino, gaming, lottery
 sub c a b a l a by uniE215; #tags eye, luck, dream, god
 sub c l o v e r by uniE216; #tags luck, dream, lotto, lottery
+
+sub l e g a l by uniE219; #tags lawyer, justice
 
 sub s a d underscore f a c e by uniE22D; #tags emoji
 sub h a p p y underscore f a c e by uniE22E; #tags emoji
@@ -235,10 +251,17 @@ sub s a v e by uniE260; #tags disk
 
 sub a d d underscore s q u a r e by uniE262; #tags plus
 sub r e m o v e underscore s q u a r e by uniE263; #tags minus
+sub m o r e underscore l e s s by uniE264; #tags approximately, roughly, plus, sum, minus
+sub t o t a l by uniE265; #tags amount, sum
+sub n u m b e r by uniE266; #tags hashtag
 
 sub t e l e v i s i o n by uniE26B; #tags tv, monitor
 sub s t o r e by uniE26C; #tags storefront, business, local
 sub d r i n k by uniE26D; #tags amenity, bar, wine
+
+sub o p e n underscore b o x by uniE271; #tags gift, resource, surprise
+
+sub b r i e f c a s e by uniE274; #tags portfolio, docs
 
 sub b u l b underscore n u m b e r by uniE279; #tags hint, light, idea, think
 sub b u l b underscore o n by uniE27A; #tags light, idea, hint, think 
@@ -272,5 +295,6 @@ sub a p p l e underscore l o g o by uniE2A3; #tags logo
 sub f a c e b o o k underscore l o g o by uniE2A4; #tags logo
 sub g o o g l e underscore l o g o by uniE2A5; #tags logo
 sub w h a t s a p p underscore l o g o by uniE2A6; #tags logo
+sub x underscore l o g o by uniE2A7; #tags logo, twitter
 
 sub l o g o by uniE2AF; #tags logo, create, art, font

@@ -4,8 +4,14 @@ const path = require('path');
 let inputFilePath = path.join(__dirname, '..', 'src', 'js', 'data.js');
 let outputFilePath = path.join(__dirname, '..', 'src', 'js', 'flutter2.txt');
 
-try {
+// Función para convertir a camelCase y manejar números
+function toCamelCase(str) {
+  return str
+    .replace(/_([a-z])/g, (match, p1) => p1.toUpperCase()) // Convierte _a en A
+    .replace(/_(\d+)/g, (match, p1) => p1);               // Elimina _ antes de números
+}
 
+try {
   let iconData = fs.readFileSync(inputFilePath, { encoding: 'utf8' });
   iconData = iconData
     .replace(/window.iconsOriginal = /g, '')
@@ -19,12 +25,12 @@ try {
   let iconsArray = JSON.parse(iconData);
   let ficons = '';
 
-  // static const IconData abjadArabic = const _MdiIconData(0xf1328);
-
-  iconsArray.forEach(element => ficons += `'${element.name}': 0x${element.uni},\n`)
+  iconsArray.forEach(element => {
+    const camelCaseName = toCamelCase(element.name);
+    ficons += `  '${camelCaseName}': GIcons.${camelCaseName},\n`;
+  });
 
   fs.writeFileSync(outputFilePath, ficons);
-}
-catch (e) {
+} catch (e) {
   console.log(`Ups, unable to parse data.js: ${e}`);
 }

@@ -84,6 +84,12 @@
     "tags": "poll, analytics, bar"
   },
   {
+    "name": "shuffle",
+    "uni": "E01E",
+    "dec": "57374",
+    "tags": "random, sort"
+  },
+  {
     "name": "restore",
     "uni": "E01F",
     "dec": "57375",
@@ -546,6 +552,18 @@
     "tags": "chronometer, clock, schedule, watch, stopwatch"
   },
   {
+    "name": "hourglass",
+    "uni": "E100",
+    "dec": "57600",
+    "tags": "clock, schedule, watch, time"
+  },
+  {
+    "name": "vr_mobile",
+    "uni": "E108",
+    "dec": "57608",
+    "tags": "phone, talk, interview"
+  },
+  {
     "name": "folder",
     "uni": "E111",
     "dec": "57617",
@@ -576,6 +594,12 @@
     "tags": "doc, file"
   },
   {
+    "name": "folder_secure",
+    "uni": "E116",
+    "dec": "57622",
+    "tags": "doc, file"
+  },
+  {
     "name": "page",
     "uni": "E117",
     "dec": "57623",
@@ -598,6 +622,24 @@
     "uni": "E11A",
     "dec": "57626",
     "tags": "flip"
+  },
+  {
+    "name": "test_repeat",
+    "uni": "E11B",
+    "dec": "57627",
+    "tags": "study, exam, quiz"
+  },
+  {
+    "name": "test_star",
+    "uni": "E11C",
+    "dec": "57628",
+    "tags": "study, exam, quiz"
+  },
+  {
+    "name": "test_daily",
+    "uni": "E11D",
+    "dec": "57629",
+    "tags": "study, exam, quiz, calendar"
   },
   {
     "name": "pdf",
@@ -888,6 +930,12 @@
     "tags": "ads, publicity, campaign"
   },
   {
+    "name": "alert",
+    "uni": "E200",
+    "dec": "57856",
+    "tags": "warning, error"
+  },
+  {
     "name": "question_answer",
     "uni": "E201",
     "dec": "57857",
@@ -1018,6 +1066,12 @@
     "uni": "E216",
     "dec": "57878",
     "tags": "luck, dream, lotto, lottery"
+  },
+  {
+    "name": "legal",
+    "uni": "E219",
+    "dec": "57881",
+    "tags": "lawyer, justice"
   },
   {
     "name": "sad_face",
@@ -1252,6 +1306,18 @@
     "uni": "E26D",
     "dec": "57965",
     "tags": "amenity, bar, wine"
+  },
+  {
+    "name": "open_box",
+    "uni": "E271",
+    "dec": "57969",
+    "tags": "gift, resource, surprise"
+  },
+  {
+    "name": "briefcase",
+    "uni": "E274",
+    "dec": "57972",
+    "tags": "portfolio, docs"
   },
   {
     "name": "bulb_number",
