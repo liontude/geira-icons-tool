@@ -16,12 +16,14 @@ sub p e r s o n underscore s t a t u s by uniE00E; #tags account, user, person
 
 sub c h a r t by uniE013; #tags poll, analytics, bar
 
+sub b a c k underscore t e n by uniE01C; #tags time, seconds, arrow
+sub f o r t h underscore t e n by uniE01D; #tags time, foward, seconds, arrow
 sub s h u f f l e by uniE01E; #tags random, sort
 
-sub r e s t o r e by uniE01F; #tags reset, refresh, back, undo
-sub u n d o by uniE02A; #tags reset, refresh, back, restore
-sub u p d a t e by uniE02B; #tags reset, refresh
-sub r e f r e s h by uniE02C; #tags reset, refresh, update
+sub r e s t o r e by uniE01F; #tags reset, refresh, back, undo, arrow
+sub u n d o by uniE02A; #tags reset, refresh, back, restore, arrow
+sub u p d a t e by uniE02B; #tags reset, refresh, arrow
+sub r e f r e s h by uniE02C; #tags reset, refresh, update, arrow
 sub c h e v r o n underscore u p by uniE02D; #tags arrow, expand, keyboard, caret, navigate
 sub c h e v r o n underscore r i g h t by uniE02E; #tags arrow, forward, keyboard, navigate, caret, navigate
 sub c h e v r o n underscore d o w n by uniE02F; #tags arrow, expand, keyboard, caret, navigate
@@ -45,12 +47,18 @@ sub n o underscore a u d i o by uniE05F; #tags sound, speaker, mute
 sub r e f r e s h underscore a u d i o by uniE06A; #tags sound, speaker, volume, refresh, load
 sub l o a d underscore a u d i o by uniE06B; #tags sound, speaker, volume
 
-sub p l a y underscore a r r o w by uniE06D; #tags record, audio, player
-sub p a u s e by uniE06E; #tags audio, player, stop
-sub s t o p by uniE06F; #tags audio, player
-sub s k i p underscore n e x t by uniE07A; #tags audio, player, forward
-sub s k i p underscore p r e v i o u s by uniE07B; #tags audio, player, backward
-sub r e c o r d by uniE07C; #tags audio, player, play
+sub p l a y underscore c i r c l e by uniE06D; #tags record, audio, player
+sub p a u s e underscore c i r c l e by uniE06E; #tags audio, player, stop
+sub s t o p underscore c i r c l e by uniE06F; #tags audio, player
+sub n e x t underscore c i r c l e  by uniE07A; #tags audio, player, forward
+sub b a c k underscore c i r c l e by uniE07B; #tags audio, player, backward
+sub r e c o r d underscore c i r c l e by uniE07C; #tags audio, player, play
+
+sub p l a y by uniE07D; #tags record, audio, player
+sub p a u s e by uniE07E; #tags audio, player, stop
+sub s t o p by uniE07F; #tags audio, player
+sub s k i p underscore n e x t by uniE08A; #tags audio, player, forward
+sub s k i p underscore p r e v i o u s by uniE08B; #tags audio, player, backward
 
 sub p r e v i o u s by uniE08C; #tags arrow, caret, chevron, skip, navigate
 sub n e x t by uniE08D; #tags arrow, caret, chevron, skip, navigate
@@ -111,8 +119,6 @@ sub t i m e underscore r e c o r d by uniE0FE; #tags chronometer, clock, schedul
 
 sub h o u r g l a s s by uniE100; #tags clock, schedule, watch, time
 
-sub v r underscore m o b i l e by uniE108; #tags phone, talk, interview
-
 sub f o l d e r by uniE111; #tags doc, file
 sub f o l d e r underscore o p e n by uniE112; #tags doc, file
 sub f o l d e r underscore a d d by uniE113; #tags doc, file
@@ -128,6 +134,7 @@ sub t e s t underscore r e p e a t by uniE11B; #tags study, exam, quiz
 sub t e s t underscore s t a r by uniE11C; #tags study, exam, quiz
 sub t e s t underscore d a i l y by uniE11D; #tags study, exam, quiz, calendar
 
+sub a u d i o b o o k by uniE123; #tags study, docs, menu, book
 sub p d f by uniE124; #tags page, doc, file
 sub d o c by uniE125; #tags page, doc, file
 sub j p g by uniE126; #tags page, doc, file, image
@@ -172,6 +179,10 @@ sub g i r l by uniE1A2; #tags child, boy, girl, kid
 sub b o y by uniE1A3; #tags child, boy, girl, kid
 sub d i s a b l e d by uniE1A4; #tags incapable, helpless, handicapped, invalid, kept, hind
 sub p h o t o underscore i d by uniE1A5; #tags id, badge, passport
+sub l e a r n by uniE1A6; #tags user, account, person, people, study
+sub e x a m e n by uniE1A7; #tags user, account, person, people, study, test
+sub v i d e o underscore c a l l by uniE1A8; #tags user, account, person, people, virtual, mobile
+sub i n t e r v i e w by uniE1A9; #tags person, people, account, talk, interview, virtual, user
 
 sub p o l i t i c i a n by uniE1CC; #tags speech, president
 sub b u l l by uniE1CD; #tags cow

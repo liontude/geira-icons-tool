@@ -84,6 +84,18 @@
     "tags": "poll, analytics, bar"
   },
   {
+    "name": "back_ten",
+    "uni": "E01C",
+    "dec": "57372",
+    "tags": "time, seconds, arrow"
+  },
+  {
+    "name": "forth_ten",
+    "uni": "E01D",
+    "dec": "57373",
+    "tags": "time, foward, seconds, arrow"
+  },
+  {
     "name": "shuffle",
     "uni": "E01E",
     "dec": "57374",
@@ -93,25 +105,25 @@
     "name": "restore",
     "uni": "E01F",
     "dec": "57375",
-    "tags": "reset, refresh, back, undo"
+    "tags": "reset, refresh, back, undo, arrow"
   },
   {
     "name": "undo",
     "uni": "E02A",
     "dec": "57386",
-    "tags": "reset, refresh, back, restore"
+    "tags": "reset, refresh, back, restore, arrow"
   },
   {
     "name": "update",
     "uni": "E02B",
     "dec": "57387",
-    "tags": "reset, refresh"
+    "tags": "reset, refresh, arrow"
   },
   {
     "name": "refresh",
     "uni": "E02C",
     "dec": "57388",
-    "tags": "reset, refresh, update"
+    "tags": "reset, refresh, update, arrow"
   },
   {
     "name": "chevron_up",
@@ -240,40 +252,70 @@
     "tags": "sound, speaker, volume"
   },
   {
-    "name": "play_arrow",
+    "name": "play_circle",
     "uni": "E06D",
     "dec": "57453",
     "tags": "record, audio, player"
   },
   {
-    "name": "pause",
+    "name": "pause_circle",
     "uni": "E06E",
     "dec": "57454",
     "tags": "audio, player, stop"
   },
   {
-    "name": "stop",
+    "name": "stop_circle",
     "uni": "E06F",
     "dec": "57455",
     "tags": "audio, player"
   },
   {
-    "name": "skip_next",
+    "name": "next_circle",
     "uni": "E07A",
     "dec": "57466",
     "tags": "audio, player, forward"
   },
   {
-    "name": "skip_previous",
+    "name": "back_circle",
     "uni": "E07B",
     "dec": "57467",
     "tags": "audio, player, backward"
   },
   {
-    "name": "record",
+    "name": "record_circle",
     "uni": "E07C",
     "dec": "57468",
     "tags": "audio, player, play"
+  },
+  {
+    "name": "play",
+    "uni": "E07D",
+    "dec": "57469",
+    "tags": "record, audio, player"
+  },
+  {
+    "name": "pause",
+    "uni": "E07E",
+    "dec": "57470",
+    "tags": "audio, player, stop"
+  },
+  {
+    "name": "stop",
+    "uni": "E07F",
+    "dec": "57471",
+    "tags": "audio, player"
+  },
+  {
+    "name": "skip_next",
+    "uni": "E08A",
+    "dec": "57482",
+    "tags": "audio, player, forward"
+  },
+  {
+    "name": "skip_previous",
+    "uni": "E08B",
+    "dec": "57483",
+    "tags": "audio, player, backward"
   },
   {
     "name": "previous",
@@ -558,12 +600,6 @@
     "tags": "clock, schedule, watch, time"
   },
   {
-    "name": "vr_mobile",
-    "uni": "E108",
-    "dec": "57608",
-    "tags": "phone, talk, interview"
-  },
-  {
     "name": "folder",
     "uni": "E111",
     "dec": "57617",
@@ -640,6 +676,12 @@
     "uni": "E11D",
     "dec": "57629",
     "tags": "study, exam, quiz, calendar"
+  },
+  {
+    "name": "audiobook",
+    "uni": "E123",
+    "dec": "57635",
+    "tags": "study, docs, menu, book"
   },
   {
     "name": "pdf",
@@ -868,6 +910,30 @@
     "uni": "E1A5",
     "dec": "57765",
     "tags": "id, badge, passport"
+  },
+  {
+    "name": "learn",
+    "uni": "E1A6",
+    "dec": "57766",
+    "tags": "user, account, person, people, study"
+  },
+  {
+    "name": "examen",
+    "uni": "E1A7",
+    "dec": "57767",
+    "tags": "user, account, person, people, study, test"
+  },
+  {
+    "name": "video_call",
+    "uni": "E1A8",
+    "dec": "57768",
+    "tags": "user, account, person, people, virtual, mobile"
+  },
+  {
+    "name": "interview",
+    "uni": "E1A9",
+    "dec": "57769",
+    "tags": "person, people, account, talk, interview, virtual, user"
   },
   {
     "name": "politician",
